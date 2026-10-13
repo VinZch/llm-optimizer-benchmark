@@ -1,0 +1,4 @@
+{
+  "reason": "Checkpoint pickler cycles retained old CUDA storage; keep numerical smoke but exclude memory/timing comparison. Rerun baseline with CPU snapshots after A3/A5.",
+  "original_run": "adamw-A0-500"
+}

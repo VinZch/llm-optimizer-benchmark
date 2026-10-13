@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "steps": 2,
+  "seconds": 3.286515499930829,
+  "updates_timed": 2,
+  "tokens_per_sec_including_eval": 9970.438295723743,
+  "peak_allocated_bytes": 6470565376,
+  "peak_reserved_bytes": 7107248128,
+  "persistent_moment_bytes": 988698624,
+  "final_train_loss": 10.97882080078125,
+  "final_val_loss": 10.971298217773438,
+  "synthetic_preflight": true,
+  "quality_conclusion": "none; smoke only",
+  "formal_resource_probe": false
+}

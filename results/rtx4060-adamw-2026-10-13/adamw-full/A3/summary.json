@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "steps": 91553,
+  "seconds": 109106.72859620024,
+  "session_seconds": 109106.72859620024,
+  "updates_timed": 91553,
+  "tokens_per_sec_including_eval": 13748.046259836621,
+  "peak_allocated_bytes": 6139936256,
+  "peak_reserved_bytes": 7117733888,
+  "persistent_moment_bytes": 621855744,
+  "final_train_loss": 3.5006918907165527,
+  "final_val_loss": 3.4146867704025836,
+  "synthetic_preflight": false,
+  "quality_conclusion": "paired full training; assess all variants and seeds before conclusions",
+  "final_evaluated_targets": 9999999,
+  "formal_resource_probe": false
+}

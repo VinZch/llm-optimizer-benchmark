@@ -1,0 +1,20 @@
+{
+  "train": {
+    "repo": "gmongaras/SlimPajama-627B_Reupload",
+    "revision": "c34c22dbb10ae6b264a2f357a909d1a537141b36",
+    "remote_path": "data/train-00000-of-00250.parquet",
+    "canonical_url": "https://huggingface.co/datasets/gmongaras/SlimPajama-627B_Reupload/resolve/c34c22dbb10ae6b264a2f357a909d1a537141b36/data/train-00000-of-00250.parquet",
+    "download_endpoint": "https://hf-mirror.com",
+    "local_source": "train-00000.parquet",
+    "sha256": "df3f0589ad1564bfd68b5e991c89601cdc3bdf5ab887f4427aca6ae1df8a4f84"
+  },
+  "val": {
+    "repo": "gmongaras/SlimPajama-627B_Reupload",
+    "revision": "c34c22dbb10ae6b264a2f357a909d1a537141b36",
+    "remote_path": "data/validation-00000-of-00030.parquet",
+    "canonical_url": "https://huggingface.co/datasets/gmongaras/SlimPajama-627B_Reupload/resolve/c34c22dbb10ae6b264a2f357a909d1a537141b36/data/validation-00000-of-00030.parquet",
+    "download_endpoint": "https://hf-mirror.com",
+    "local_source": "validation-00000.parquet",
+    "sha256": "7cbc827a54601f98571cd90aa81beb62adc9b9906484933c00d0ec564c0fcc33"
+  }
+}

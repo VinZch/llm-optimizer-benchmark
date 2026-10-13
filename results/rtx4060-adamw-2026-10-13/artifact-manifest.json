@@ -1,0 +1,259 @@
+[
+  {
+    "source": "adamw-full/A0/checkpoints/last.pt",
+    "bytes": 1637680885,
+    "sha256": "b69d48063778d87ed85dd9edb8a24653a0866d8b3c4f6ae745a33cb047546bf1",
+    "release_asset": "adamw-full-A0-checkpoints-last.pt",
+    "url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/adamw-full-A0-checkpoints-last.pt"
+  },
+  {
+    "source": "adamw-full/A0/metrics.jsonl",
+    "bytes": 20901274,
+    "sha256": "cf0ec0ff9b6055f0b80b0954988ff69af07a43523b87529a4f98286a88db8e48"
+  },
+  {
+    "source": "adamw-full/A0/provenance.json",
+    "bytes": 406,
+    "sha256": "02dac9fe292adf1b968ac1e7e644b842ea4e8c4a75f66634aebf7150a75e1c7c"
+  },
+  {
+    "source": "adamw-full/A0/resolved_protocol.json",
+    "bytes": 3261,
+    "sha256": "0fc60077bd0bea54dffe144f938a47604e67cbe16e2dd31aa6eed0680d4d2653"
+  },
+  {
+    "source": "adamw-full/A0/resolved_quantization.json",
+    "bytes": 205,
+    "sha256": "f4a3386cba45064d6e0868fc7a7f41692b9035fd37061e4d9fcc2bdfc55e772f"
+  },
+  {
+    "source": "adamw-full/A0/state_inventory.json",
+    "bytes": 67681,
+    "sha256": "de1eb7a836edbf8ed7b39362e26233850f507fece0701494967c4e21dc7585dc"
+  },
+  {
+    "source": "adamw-full/A0/status.json",
+    "bytes": 67,
+    "sha256": "789276cab44a64539999c0b1d88fa1c6c8c57b03332f6608266841534c7d9614"
+  },
+  {
+    "source": "adamw-full/A0/summary.json",
+    "bytes": 614,
+    "sha256": "ac20350e56d47f2d898b6134f0007817da44a18a9aef77dcdb1d64cf207b90ce"
+  },
+  {
+    "source": "adamw-full/A3/checkpoints/last.pt",
+    "bytes": 1270854587,
+    "sha256": "1102821cc837d53197819c5fda97172c3c6bb3e57655764d3cb14fcbfc1dd4f3",
+    "release_asset": "adamw-full-A3-checkpoints-last.pt",
+    "url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/adamw-full-A3-checkpoints-last.pt"
+  },
+  {
+    "source": "adamw-full/A3/metrics.jsonl",
+    "bytes": 20900920,
+    "sha256": "ce8e5232d9e27f5b5d1385754d28b8e767648d2af82b8302413e92af6dea58ca"
+  },
+  {
+    "source": "adamw-full/A3/provenance.json",
+    "bytes": 406,
+    "sha256": "02dac9fe292adf1b968ac1e7e644b842ea4e8c4a75f66634aebf7150a75e1c7c"
+  },
+  {
+    "source": "adamw-full/A3/resolved_protocol.json",
+    "bytes": 3261,
+    "sha256": "e904a191c503bf9ac879ca535d0f59b485941612299ed8ac435b110c638ca455"
+  },
+  {
+    "source": "adamw-full/A3/resolved_quantization.json",
+    "bytes": 204,
+    "sha256": "b88505a14714c66aaada7da40f11cea2833d982ab5119dcdd8b0150c32abcd70"
+  },
+  {
+    "source": "adamw-full/A3/state_inventory.json",
+    "bytes": 68219,
+    "sha256": "f8f4ca7a1a3502b30b87e9723e4db62167671b6a57a700b426169160b4e720bc"
+  },
+  {
+    "source": "adamw-full/A3/status.json",
+    "bytes": 67,
+    "sha256": "789276cab44a64539999c0b1d88fa1c6c8c57b03332f6608266841534c7d9614"
+  },
+  {
+    "source": "adamw-full/A3/summary.json",
+    "bytes": 615,
+    "sha256": "de5899bca56ab0582e4bc9085e56a17979d4aa034f43f17614db3f1854c5a5b3"
+  },
+  {
+    "source": "adamw-A0-500/checkpoints/last.pt",
+    "bytes": 1637680053,
+    "sha256": "dd2edf07a666ab1a7894ad5ac00559e800cec55474ab8165b1038f8f23f01db9",
+    "release_asset": "adamw-A0-500-checkpoints-last.pt",
+    "url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/adamw-A0-500-checkpoints-last.pt"
+  },
+  {
+    "source": "adamw-A0-500/metrics.jsonl",
+    "bytes": 115911,
+    "sha256": "02bb0be470e48b04d8d4fd747ed5bb1ef99a4cbc5bc3fe87a26100d199be1d41"
+  },
+  {
+    "source": "adamw-A0-500/provenance.json",
+    "bytes": 406,
+    "sha256": "faaffedaf88f648d7530f0e316ca9c894bba94bccc22b9fc2397d6b3ff7694d5"
+  },
+  {
+    "source": "adamw-A0-500/resolved_protocol.json",
+    "bytes": 3221,
+    "sha256": "ff93890e0530d1ca5e66bc3d9775c1039faf98e8fc95eff692e9af2935ecbe57"
+  },
+  {
+    "source": "adamw-A0-500/resolved_quantization.json",
+    "bytes": 205,
+    "sha256": "f4a3386cba45064d6e0868fc7a7f41692b9035fd37061e4d9fcc2bdfc55e772f"
+  },
+  {
+    "source": "adamw-A0-500/state_inventory.json",
+    "bytes": 67337,
+    "sha256": "8d8b8df373dfce8e03b668bf2cdb3843c8dc712f8416a89a47962e3d5a947bb6"
+  },
+  {
+    "source": "adamw-A0-500/status.json",
+    "bytes": 45,
+    "sha256": "98906445d4f3432e05c46c288e6cf03908eb7ea3bde2b1c3d68b00aa85947120"
+  },
+  {
+    "source": "adamw-A0-500/summary.json",
+    "bytes": 472,
+    "sha256": "9b85ec8ae04d8a789f431bab996f086555ba04c294cd9262f2817b0614c383c9"
+  },
+  {
+    "source": "adamw-A3-500/checkpoints/last.pt",
+    "bytes": 1270853755,
+    "sha256": "3ed5cc3d321e4caf49313931942fb253fa8220a88a04c8c8333938378c9860c0",
+    "release_asset": "adamw-A3-500-checkpoints-last.pt",
+    "url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/adamw-A3-500-checkpoints-last.pt"
+  },
+  {
+    "source": "adamw-A3-500/metrics.jsonl",
+    "bytes": 115909,
+    "sha256": "8f9e68d844dff95c19a3281ae405c838e2b2bbffe10fa78467808ba85eeba681"
+  },
+  {
+    "source": "adamw-A3-500/provenance.json",
+    "bytes": 406,
+    "sha256": "faaffedaf88f648d7530f0e316ca9c894bba94bccc22b9fc2397d6b3ff7694d5"
+  },
+  {
+    "source": "adamw-A3-500/resolved_protocol.json",
+    "bytes": 3221,
+    "sha256": "3eca3d3fd420d3604d34dfc22114b0da3b65bca3c1c306e29cd309909df88c28"
+  },
+  {
+    "source": "adamw-A3-500/resolved_quantization.json",
+    "bytes": 204,
+    "sha256": "b88505a14714c66aaada7da40f11cea2833d982ab5119dcdd8b0150c32abcd70"
+  },
+  {
+    "source": "adamw-A3-500/state_inventory.json",
+    "bytes": 67875,
+    "sha256": "8c573972977405c0602c98712d4ba703a07f8e423d701e522c2c917c60703004"
+  },
+  {
+    "source": "adamw-A3-500/status.json",
+    "bytes": 45,
+    "sha256": "98906445d4f3432e05c46c288e6cf03908eb7ea3bde2b1c3d68b00aa85947120"
+  },
+  {
+    "source": "adamw-A3-500/summary.json",
+    "bytes": 473,
+    "sha256": "9523abf179bd033afa92c94439c45ac2b7afb05d9c37e10019ae732530bdf30d"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/checkpoints/last.pt",
+    "bytes": 1483156791,
+    "sha256": "9e9aeebf003d41d8824150cd7299f9425d1ab0dc8e3ec612b6566174484e13b2",
+    "release_asset": "archive-A0-before-checkpoint-fix-checkpoints-last.pt",
+    "url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/archive-A0-before-checkpoint-fix-checkpoints-last.pt"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/EXCLUDED_FROM_COMPARISON.json",
+    "bytes": 215,
+    "sha256": "450f5f71ae2bc50ec023ddd2cb2e8b95f2624c36778598c29aaff357984ca195"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/metrics.jsonl",
+    "bytes": 115914,
+    "sha256": "d348f31b82199f0166f8f73cd42d760487b9646e6340180086a459209ef68f10"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/provenance.json",
+    "bytes": 311,
+    "sha256": "8d271dc8bb998a19be315c13e31d36c05157d7f501c5ace200c05232e976592b"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/resolved_protocol.json",
+    "bytes": 3221,
+    "sha256": "ff93890e0530d1ca5e66bc3d9775c1039faf98e8fc95eff692e9af2935ecbe57"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/resolved_quantization.json",
+    "bytes": 205,
+    "sha256": "f4a3386cba45064d6e0868fc7a7f41692b9035fd37061e4d9fcc2bdfc55e772f"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/state_inventory.json",
+    "bytes": 67337,
+    "sha256": "8d8b8df373dfce8e03b668bf2cdb3843c8dc712f8416a89a47962e3d5a947bb6"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/status.json",
+    "bytes": 45,
+    "sha256": "98906445d4f3432e05c46c288e6cf03908eb7ea3bde2b1c3d68b00aa85947120"
+  },
+  {
+    "source": "archive-A0-before-checkpoint-fix/summary.json",
+    "bytes": 472,
+    "sha256": "290461006ac0ae80e4adef4bf535e38f09b5cae10b8fd93e6d836108f62515aa"
+  },
+  {
+    "source": "preflight-A0-mb8/checkpoints/last.pt",
+    "bytes": 1483138009,
+    "sha256": "4800549fc416a71dcff7a19b98fc53dd4512387ee631b999e04569352bbb0132",
+    "release_asset": "preflight-A0-mb8-checkpoints-last.pt",
+    "url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/preflight-A0-mb8-checkpoints-last.pt"
+  },
+  {
+    "source": "preflight-A0-mb8/metrics.jsonl",
+    "bytes": 1325,
+    "sha256": "ba64ea972380dc5a33fe84b9cf3febb01fd8e92790fe048ae4a9d4ae1cb8659a"
+  },
+  {
+    "source": "preflight-A0-mb8/provenance.json",
+    "bytes": 311,
+    "sha256": "c786a3ea2d5b638490201cd5f176cfc69d034f3bc543eaf4398120e0b3fc13c1"
+  },
+  {
+    "source": "preflight-A0-mb8/resolved_protocol.json",
+    "bytes": 1587,
+    "sha256": "6e6b567a6fb78ba5f6c26c94f973b6edfda862cfa85e54589374cf8ebd20b9b3"
+  },
+  {
+    "source": "preflight-A0-mb8/resolved_quantization.json",
+    "bytes": 205,
+    "sha256": "f4a3386cba45064d6e0868fc7a7f41692b9035fd37061e4d9fcc2bdfc55e772f"
+  },
+  {
+    "source": "preflight-A0-mb8/state_inventory.json",
+    "bytes": 66993,
+    "sha256": "8f8b89e2075b04f090788016b0a272f38001e1cbfa15a7717b926fcde479f3fc"
+  },
+  {
+    "source": "preflight-A0-mb8/status.json",
+    "bytes": 43,
+    "sha256": "143b405f6d095563b1b2cd2732c1d3948ed7a48e2ea14a1f7bbda418f3f2a58b"
+  },
+  {
+    "source": "preflight-A0-mb8/summary.json",
+    "bytes": 468,
+    "sha256": "5c8133c92acc017b7620cdbbefb9296e81337c9b3786a901d6aef79ea5ede904"
+  }
+]

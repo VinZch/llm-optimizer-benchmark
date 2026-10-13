@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/maplejyz99-droid/llm-optimizer-benchmark",
+  "commit": "7776f6b0b189707911d43f11853c40851fd058a8",
+  "unmodified_files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "src/models/base.py",
+      "git_blob_sha": "6fcd2439daac93fc168a148bb9ed1f4dffc02e23"
+    },
+    {
+      "path": "src/models/llama.py",
+      "git_blob_sha": "4c38c920adc681193f093dd2520bdfb326e5df66"
+    },
+    {
+      "path": "src/models/moe.py",
+      "git_blob_sha": "ed8e31eed2b9b456113aab1a14f06eec86995ddf"
+    }
+  ],
+  "modified_files": [
+    "src/models/utils.py: imports trimmed to dense Llama registry only"
+  ]
+}

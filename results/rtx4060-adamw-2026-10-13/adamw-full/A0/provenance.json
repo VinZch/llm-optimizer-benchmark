@@ -1,0 +1,7 @@
+{
+  "benchmark_commit": "7776f6b0b189707911d43f11853c40851fd058a8",
+  "design_commit": "6d7abf437819475447993eacb95d912034e6d05b",
+  "adapter_sha256": "0fb900e9220162c8aa7c31d0bad9a8fcae2d08a7084b5e9ca7c237161151613a",
+  "runner_sha256": "3f74c082549faffcb464218bffd8deb8a34de366d3716c1198670ee369ea8ed9",
+  "checkpoint_io_sha256": "2cec42d9e9fdb2f589897b3de2f5e78dc37d6b7282aa11cf17cf86b857fc4977"
+}

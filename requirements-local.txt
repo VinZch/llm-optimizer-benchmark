@@ -1,0 +1,6 @@
+torch==2.9.1+cu126
+numpy==2.3.3
+tiktoken==0.12.0
+pyarrow==21.0.0
+requests==2.34.2
+zstandard==0.25.0

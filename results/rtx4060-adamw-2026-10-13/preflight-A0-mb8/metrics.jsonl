@@ -1,0 +1,6 @@
+{"run_id": "preflight-A0-mb8", "optimizer_step": 1, "nominal_tokens": 16384, "effective_tokens": 16384, "metric_name": "train_loss", "value": 10.975692749023438, "split": "train", "measurement_protocol": "new_control_smoke"}
+{"run_id": "preflight-A0-mb8", "optimizer_step": 2, "nominal_tokens": 32768, "effective_tokens": 32768, "metric_name": "train_loss", "value": 10.97882080078125, "split": "train", "measurement_protocol": "new_control_smoke"}
+{"run_id": "preflight-A0-mb8", "optimizer_step": 2, "nominal_tokens": 32768, "effective_tokens": 32768, "metric_name": "val_loss", "value": 10.971298217773438, "split": "val", "measurement_protocol": "new_control_smoke"}
+{"run_id": "preflight-A0-mb8", "optimizer_step": 2, "nominal_tokens": 32768, "effective_tokens": 32768, "metric_name": "val_pp", "value": 58179.64544347286, "split": "val", "measurement_protocol": "new_control_smoke"}
+{"run_id": "preflight-A0-mb8", "optimizer_step": 2, "nominal_tokens": 32768, "effective_tokens": 32768, "metric_name": "ppl_exp_exact", "value": 58180.074803484655, "split": "val", "measurement_protocol": "new_control_smoke"}
+{"run_id": "preflight-A0-mb8", "optimizer_step": 2, "nominal_tokens": 32768, "effective_tokens": 32768, "metric_name": "val_acc", "value": 0.0, "split": "val", "measurement_protocol": "new_control_smoke"}

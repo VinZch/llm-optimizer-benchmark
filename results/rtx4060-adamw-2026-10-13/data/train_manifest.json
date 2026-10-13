@@ -1,0 +1,18 @@
+{
+  "dataset": "SlimPajama",
+  "source_repo": "gmongaras/SlimPajama-627B_Reupload",
+  "source_revision": "c34c22dbb10ae6b264a2f357a909d1a537141b36",
+  "download_endpoint": "hf-mirror.com (redirect to official HF storage)",
+  "source_file": "train-00000.parquet",
+  "source_sha256": "df3f0589ad1564bfd68b5e991c89601cdc3bdf5ab887f4427aca6ae1df8a4f84",
+  "selection": "fixed document prefix, source split kept separate",
+  "strict_historical_reproduction": false,
+  "tokenizer": "gpt2",
+  "tiktoken_version": "0.12.0",
+  "eot": 50256,
+  "dtype": "uint16",
+  "tokens": 1500004352,
+  "documents": 1417724,
+  "sha256": "4908b750a63a486f1368079a4a7a0aa0e2c13a5cd159b6f198e179c6739af54d",
+  "seconds": 267.50825349986553
+}
