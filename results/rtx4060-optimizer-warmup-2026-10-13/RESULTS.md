@@ -4,3 +4,4 @@
 
 |Optimizer|Variant|Steps|Final val loss|Seconds|Peak GiB|
 |---|---|---:|---:|---:|---:|
+|lion|L0|500|5.890767|703.8|2.635|

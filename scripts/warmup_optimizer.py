@@ -4,6 +4,7 @@ import hashlib
 import json
 import math
 import os
+import shutil
 from pathlib import Path
 import sys
 import time
@@ -52,6 +53,9 @@ def run(args):
             data={s:json.loads((root/f'{s}_manifest.json').read_text()) for s in ['train','val']})
         write_json(out/'resolved_protocol.json',protocol)
         write_json(out/'resolved_quantization.json',dict(backend='simulation',state_codecs=variants(args.optimizer)[args.variant],group_size=128,min_numel=4096,rounding='RNE',scale_dtype='float32',quantization_time='after upstream logical state writes',persistent_fp32_storage=True))
+        snapshot=out/'source_snapshot'; snapshot.mkdir(exist_ok=True)
+        for path in [Path(__file__),ROOT/'scripts/benchmark_bridge.py',ROOT/'quantization/state_simulation.py',ROOT/'quantization/adamw.py']:
+            shutil.copy2(path,snapshot/path.name)
         write_json(out/'provenance.json',dict(benchmark_commit='7776f6b0b189707911d43f11853c40851fd058a8',
             sources={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__),ROOT/'scripts/benchmark_bridge.py',ROOT/'quantization/state_simulation.py',ROOT/'quantization/adamw.py']}))
         def batch(data,starts):

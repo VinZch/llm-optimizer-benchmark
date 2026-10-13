@@ -1,12 +1,14 @@
 """Create plot-ready CSV, comparison and loss figures, preserving raw measurements."""
 import csv
 import json
+import os
 from pathlib import Path
 from collections import defaultdict
 from warmup_optimizer import ROOT,write_json
 
 def main():
     root=ROOT/'runs/optimizer-warmup'; comparisons=[]
+    os.environ.setdefault('MPLCONFIGDIR',str(ROOT/'.tmp/matplotlib'))
     try:
         import matplotlib
         matplotlib.use('Agg')
@@ -39,6 +41,7 @@ def main():
             for ax,title in zip(axes,['Training loss (raw updates)','Validation loss (fixed 32 sequences)']):
                 ax.set_title(title); ax.set_xlabel('Optimizer step'); ax.set_ylabel('Cross entropy'); ax.grid(alpha=.25)
                 if ax.lines: ax.legend()
+                else: ax.text(.5,.5,'No evaluation recorded yet',ha='center',va='center',transform=ax.transAxes)
             fig.suptitle(f'{name}: state-rounding simulation, seed 0'); fig.tight_layout()
             fig.savefig(group/'loss-curves.svg'); fig.savefig(group/'loss-curves.png',dpi=150); plt.close(fig)
     write_json(root/'comparison.json',comparisons)
