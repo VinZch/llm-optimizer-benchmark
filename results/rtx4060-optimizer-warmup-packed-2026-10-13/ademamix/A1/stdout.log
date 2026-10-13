@@ -46,3 +46,7 @@
 {"status": "running", "optimizer": "ademamix", "variant": "A1", "step": 450, "target": 500, "seconds": 624.593104599975, "pid": 35272, "loss": 6.458532810211182}
 {"status": "running", "optimizer": "ademamix", "variant": "A1", "step": 460, "target": 500, "seconds": 637.8026712997817, "pid": 35272, "loss": 6.594095230102539}
 {"status": "running", "optimizer": "ademamix", "variant": "A1", "step": 470, "target": 500, "seconds": 651.1603788998909, "pid": 35272, "loss": 6.31514835357666}
+{"status": "running", "optimizer": "ademamix", "variant": "A1", "step": 480, "target": 500, "seconds": 664.7243896997534, "pid": 35272, "loss": 6.662880897521973}
+{"status": "running", "optimizer": "ademamix", "variant": "A1", "step": 490, "target": 500, "seconds": 678.3818029998802, "pid": 35272, "loss": 6.500648021697998}
+{"status": "running", "optimizer": "ademamix", "variant": "A1", "step": 500, "target": 500, "seconds": 701.0372055000626, "pid": 35272, "loss": 6.288414001464844}
+{"status": "completed", "steps": 500, "seconds": 701.0384017000906, "tokens_per_sec_including_eval": 11685.5224765627, "peak_allocated_bytes": 3644176896, "peak_reserved_bytes": 4078960640, "persistent_moment_bytes": 741562368, "persistent_optimizer_state_bytes": 1235911680, "final_train_loss": 6.288414001464844, "final_val_loss": 6.385528206825256, "backend": "packed", "max_simultaneously_decoded_parameters": 1, "max_decoded_numel": 77266944, "formal_resource_probe": false, "quality_conclusion": "500-step engineering smoke only"}

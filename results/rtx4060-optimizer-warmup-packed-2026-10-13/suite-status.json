@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T02:50:32.923912+08:00",
+  "updated": "2026-10-14T04:02:29.382909+08:00",
   "total": 88,
-  "completed": 21,
+  "completed": 27,
   "results": [
     {
       "run": "lion/L0",
@@ -130,6 +130,42 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "ademamix/A1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "ademamix/A2",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "ademamix/A3",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "ademamix/A4",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "ademamix/A5",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "ademamix/A6",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -162,6 +198,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "ademamix/A1",
-  "child_pid": 34312
+  "current": "adamw-magma/A0",
+  "child_pid": 34512
 }

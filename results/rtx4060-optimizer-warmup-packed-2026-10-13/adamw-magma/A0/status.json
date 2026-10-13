@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "adamw-magma",
+  "variant": "A0",
+  "step": 40,
+  "target": 500,
+  "seconds": 52.22596969967708,
+  "pid": 40356,
+  "loss": 9.589988708496094
+}

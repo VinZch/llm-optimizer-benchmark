@@ -1,0 +1,5 @@
+{"status": "running", "optimizer": "adamw-magma", "variant": "A0", "step": 1, "target": 500, "seconds": 1.7350250999443233, "pid": 40356, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A0", "step": 10, "target": 500, "seconds": 13.374839999713004, "pid": 40356, "loss": 10.247246742248535}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A0", "step": 20, "target": 500, "seconds": 26.12477849982679, "pid": 40356, "loss": 9.85300064086914}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A0", "step": 30, "target": 500, "seconds": 39.13299100007862, "pid": 40356, "loss": 9.611587524414062}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A0", "step": 40, "target": 500, "seconds": 52.22596969967708, "pid": 40356, "loss": 9.589988708496094}

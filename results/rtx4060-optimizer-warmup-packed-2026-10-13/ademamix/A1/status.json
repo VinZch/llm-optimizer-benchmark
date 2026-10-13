@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "ademamix",
-  "variant": "A1",
-  "step": 470,
-  "target": 500,
-  "seconds": 651.1603788998909,
-  "pid": 35272,
-  "loss": 6.31514835357666
+  "status": "completed",
+  "step": 500,
+  "pid": 35272
 }
