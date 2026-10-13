@@ -41,3 +41,12 @@
 {"status": "running", "optimizer": "adopt", "variant": "A3", "step": 400, "target": 500, "seconds": 548.8974942001514, "pid": 1380, "loss": 6.667635917663574}
 {"status": "running", "optimizer": "adopt", "variant": "A3", "step": 410, "target": 500, "seconds": 562.9183014999144, "pid": 1380, "loss": 6.7451171875}
 {"status": "running", "optimizer": "adopt", "variant": "A3", "step": 420, "target": 500, "seconds": 576.666485699825, "pid": 1380, "loss": 6.853899955749512}
+{"status": "running", "optimizer": "adopt", "variant": "A3", "step": 430, "target": 500, "seconds": 591.1803560000844, "pid": 1380, "loss": 6.6904683113098145}
+{"status": "running", "optimizer": "adopt", "variant": "A3", "step": 440, "target": 500, "seconds": 604.8931903000921, "pid": 1380, "loss": 6.384018898010254}
+{"status": "running", "optimizer": "adopt", "variant": "A3", "step": 450, "target": 500, "seconds": 618.932208399754, "pid": 1380, "loss": 6.321411609649658}
+{"status": "running", "optimizer": "adopt", "variant": "A3", "step": 460, "target": 500, "seconds": 632.786774800159, "pid": 1380, "loss": 6.466324329376221}
+{"status": "running", "optimizer": "adopt", "variant": "A3", "step": 470, "target": 500, "seconds": 646.8123119999655, "pid": 1380, "loss": 6.191714763641357}
+{"status": "running", "optimizer": "adopt", "variant": "A3", "step": 480, "target": 500, "seconds": 660.5012654997408, "pid": 1380, "loss": 6.548664569854736}
+{"status": "running", "optimizer": "adopt", "variant": "A3", "step": 490, "target": 500, "seconds": 675.8222686997615, "pid": 1380, "loss": 6.408856391906738}
+{"status": "running", "optimizer": "adopt", "variant": "A3", "step": 500, "target": 500, "seconds": 695.836594699882, "pid": 1380, "loss": 6.193545818328857}
+{"status": "completed", "steps": 500, "seconds": 695.837480599992, "tokens_per_sec_including_eval": 11772.86396377553, "peak_allocated_bytes": 2992541184, "peak_reserved_bytes": 3363831808, "persistent_moment_bytes": 621855744, "persistent_optimizer_state_bytes": 621855744, "final_train_loss": 6.193545818328857, "final_val_loss": 6.291745081543922, "backend": "packed", "max_simultaneously_decoded_parameters": 1, "max_decoded_numel": 77266944, "formal_resource_probe": false, "quality_conclusion": "500-step engineering smoke only"}

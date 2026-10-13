@@ -1,0 +1,8 @@
+{
+  "optimizer": "ademamix",
+  "variant": "A1",
+  "backend": "packed",
+  "step": 250,
+  "bytes": 1884921097,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\ademamix\\A1"
+}
