@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "lion",
+  "variant": "L0",
+  "step": 170,
+  "target": 500,
+  "seconds": 216.24077240005136,
+  "pid": 39996,
+  "loss": 7.758116245269775
+}
