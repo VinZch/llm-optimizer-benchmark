@@ -1,8 +1,8 @@
 {
   "optimizer": "lion",
-  "variant": "L1",
+  "variant": "L2",
   "backend": "packed",
   "step": 500,
-  "bytes": 896168481,
-  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\lion\\L1"
+  "bytes": 776478247,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\lion\\L2"
 }

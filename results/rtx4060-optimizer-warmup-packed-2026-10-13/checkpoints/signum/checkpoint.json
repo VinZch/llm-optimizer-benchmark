@@ -1,0 +1,8 @@
+{
+  "optimizer": "signum",
+  "variant": "L2",
+  "backend": "packed",
+  "step": 500,
+  "bytes": 776479015,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\signum\\L2"
+}

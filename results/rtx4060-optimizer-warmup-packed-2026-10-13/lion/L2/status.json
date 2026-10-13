@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "lion",
-  "variant": "L2",
-  "step": 20,
-  "target": 500,
-  "seconds": 27.306441600434482,
-  "pid": 20356,
-  "loss": 9.4260892868042
+  "status": "completed",
+  "step": 500,
+  "pid": 20356
 }
