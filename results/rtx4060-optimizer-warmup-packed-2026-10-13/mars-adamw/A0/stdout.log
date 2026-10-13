@@ -1,0 +1,11 @@
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 1, "target": 500, "seconds": 1.7426396002992988, "pid": 17372, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 10, "target": 500, "seconds": 13.86859010020271, "pid": 17372, "loss": 9.329566955566406}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 20, "target": 500, "seconds": 26.632110599894077, "pid": 17372, "loss": 9.233022689819336}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 30, "target": 500, "seconds": 39.34319890011102, "pid": 17372, "loss": 9.080951690673828}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 40, "target": 500, "seconds": 52.453324100002646, "pid": 17372, "loss": 9.013258934020996}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 50, "target": 500, "seconds": 65.5308102001436, "pid": 17372, "loss": 8.839465141296387}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 60, "target": 500, "seconds": 78.74563800031319, "pid": 17372, "loss": 8.431035995483398}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 70, "target": 500, "seconds": 91.63229730026796, "pid": 17372, "loss": 8.26973819732666}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 80, "target": 500, "seconds": 104.58146220026538, "pid": 17372, "loss": 8.244640350341797}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 90, "target": 500, "seconds": 117.60216390015557, "pid": 17372, "loss": 7.965430736541748}
+{"status": "running", "optimizer": "mars-adamw", "variant": "A0", "step": 100, "target": 500, "seconds": 130.67248769989237, "pid": 17372, "loss": 7.891948699951172}

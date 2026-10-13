@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "prodigy",
-  "variant": "A3",
-  "step": 50,
-  "target": 500,
-  "seconds": 66.49269790016115,
-  "pid": 42232,
-  "loss": 10.957115173339844
+  "status": "completed",
+  "step": 500,
+  "pid": 42232
 }

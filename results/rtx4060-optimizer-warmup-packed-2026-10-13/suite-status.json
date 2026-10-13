@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T07:04:18.577457+08:00",
+  "updated": "2026-10-14T07:54:19.684944+08:00",
   "total": 88,
-  "completed": 42,
+  "completed": 46,
   "results": [
     {
       "run": "lion/L0",
@@ -256,6 +256,30 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "prodigy/A3",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "prodigy/A4",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "prodigy/A5",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "prodigy/A6",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -288,6 +312,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "prodigy/A3",
-  "child_pid": 31196
+  "current": "mars-adamw/A0",
+  "child_pid": 41800
 }
