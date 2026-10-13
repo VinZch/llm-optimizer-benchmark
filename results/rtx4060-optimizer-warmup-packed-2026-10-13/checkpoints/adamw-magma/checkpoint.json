@@ -1,0 +1,8 @@
+{
+  "optimizer": "adamw-magma",
+  "variant": "A4",
+  "backend": "packed",
+  "step": 250,
+  "bytes": 1270872963,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\adamw-magma\\A4"
+}
