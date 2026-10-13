@@ -1,0 +1,3 @@
+{"status": "running", "optimizer": "lion", "variant": "L2", "step": 1, "target": 500, "seconds": 1.8190494002774358, "pid": 20356, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "lion", "variant": "L2", "step": 10, "target": 500, "seconds": 13.818124100100249, "pid": 20356, "loss": 9.630582809448242}
+{"status": "running", "optimizer": "lion", "variant": "L2", "step": 20, "target": 500, "seconds": 27.306441600434482, "pid": 20356, "loss": 9.4260892868042}
