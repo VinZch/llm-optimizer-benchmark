@@ -131,5 +131,24 @@
     "max_decoded_numel": 77266944,
     "formal_resource_probe": false,
     "quality_conclusion": "500-step engineering smoke only"
+  },
+  {
+    "optimizer": "cadamw",
+    "variant": "A1",
+    "status": "completed",
+    "steps": 500,
+    "seconds": 736.8832924002782,
+    "tokens_per_sec_including_eval": 11117.092875475417,
+    "peak_allocated_bytes": 3137179136,
+    "peak_reserved_bytes": 3611295744,
+    "persistent_moment_bytes": 741562368,
+    "persistent_optimizer_state_bytes": 741562368,
+    "final_train_loss": 6.321681499481201,
+    "final_val_loss": 6.413030922412872,
+    "backend": "packed",
+    "max_simultaneously_decoded_parameters": 1,
+    "max_decoded_numel": 77266944,
+    "formal_resource_probe": false,
+    "quality_conclusion": "500-step engineering smoke only"
   }
 ]

@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "cadamw",
-  "variant": "A1",
-  "step": 240,
-  "target": 500,
-  "seconds": 335.8819411001168,
-  "pid": 32276,
-  "loss": 6.942587852478027
+  "status": "completed",
+  "step": 500,
+  "pid": 32276
 }

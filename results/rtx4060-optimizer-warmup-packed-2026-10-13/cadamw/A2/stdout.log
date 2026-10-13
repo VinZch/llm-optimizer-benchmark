@@ -1,0 +1,2 @@
+{"status": "running", "optimizer": "cadamw", "variant": "A2", "step": 1, "target": 500, "seconds": 1.6725130998529494, "pid": 23052, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "cadamw", "variant": "A2", "step": 10, "target": 500, "seconds": 13.396286900155246, "pid": 23052, "loss": 9.621662139892578}
