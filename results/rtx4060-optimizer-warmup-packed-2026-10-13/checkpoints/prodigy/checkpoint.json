@@ -1,0 +1,8 @@
+{
+  "optimizer": "prodigy",
+  "variant": "A2",
+  "backend": "packed",
+  "step": 500,
+  "bytes": 2379294621,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\prodigy\\A2"
+}

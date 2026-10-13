@@ -1,0 +1,7 @@
+Using decoupled weight decay
+{"status": "running", "optimizer": "prodigy", "variant": "A3", "step": 1, "target": 500, "seconds": 2.0612988001666963, "pid": 42232, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "prodigy", "variant": "A3", "step": 10, "target": 500, "seconds": 13.653846899978817, "pid": 42232, "loss": 10.891700744628906}
+{"status": "running", "optimizer": "prodigy", "variant": "A3", "step": 20, "target": 500, "seconds": 26.682741700205952, "pid": 42232, "loss": 10.921867370605469}
+{"status": "running", "optimizer": "prodigy", "variant": "A3", "step": 30, "target": 500, "seconds": 39.80054009985179, "pid": 42232, "loss": 10.951683044433594}
+{"status": "running", "optimizer": "prodigy", "variant": "A3", "step": 40, "target": 500, "seconds": 53.10100100003183, "pid": 42232, "loss": 10.950443267822266}
+{"status": "running", "optimizer": "prodigy", "variant": "A3", "step": 50, "target": 500, "seconds": 66.49269790016115, "pid": 42232, "loss": 10.957115173339844}

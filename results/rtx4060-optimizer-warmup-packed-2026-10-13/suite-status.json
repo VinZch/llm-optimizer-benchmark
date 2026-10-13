@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T05:52:59.007181+08:00",
+  "updated": "2026-10-14T07:04:18.577457+08:00",
   "total": 88,
-  "completed": 36,
+  "completed": 42,
   "results": [
     {
       "run": "lion/L0",
@@ -220,6 +220,42 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "sf-adamw/S2",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "sf-adamw/S3",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "sf-adamw/S4",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "prodigy/A0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "prodigy/A1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "prodigy/A2",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -252,6 +288,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "sf-adamw/S2",
-  "child_pid": 41008
+  "current": "prodigy/A3",
+  "child_pid": 31196
 }

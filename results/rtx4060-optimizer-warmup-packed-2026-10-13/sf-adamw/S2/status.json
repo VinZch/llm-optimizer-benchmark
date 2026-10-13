@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "sf-adamw",
-  "variant": "S2",
-  "step": 240,
-  "target": 500,
-  "seconds": 322.7605107999407,
-  "pid": 37064,
-  "loss": 6.5485310554504395
+  "status": "completed",
+  "step": 500,
+  "pid": 37064
 }
