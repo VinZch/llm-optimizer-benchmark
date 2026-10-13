@@ -1,0 +1,84 @@
+{
+  "status": "verified_complete",
+  "checked_at": "2026-10-13T22:09:00.852878+08:00",
+  "assets": [
+    {
+      "name": "adamw-full-A0-checkpoints-last.pt",
+      "verified": true,
+      "expected_bytes": 1637680885,
+      "expected_sha256": "b69d48063778d87ed85dd9edb8a24653a0866d8b3c4f6ae745a33cb047546bf1",
+      "remote": {
+        "id": 637160335,
+        "size": 1637680885,
+        "state": "uploaded",
+        "digest": "sha256:b69d48063778d87ed85dd9edb8a24653a0866d8b3c4f6ae745a33cb047546bf1",
+        "browser_download_url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/adamw-full-A0-checkpoints-last.pt"
+      }
+    },
+    {
+      "name": "adamw-full-A3-checkpoints-last.pt",
+      "verified": true,
+      "expected_bytes": 1270854587,
+      "expected_sha256": "1102821cc837d53197819c5fda97172c3c6bb3e57655764d3cb14fcbfc1dd4f3",
+      "remote": {
+        "id": 637160334,
+        "size": 1270854587,
+        "state": "uploaded",
+        "digest": "sha256:1102821cc837d53197819c5fda97172c3c6bb3e57655764d3cb14fcbfc1dd4f3",
+        "browser_download_url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/adamw-full-A3-checkpoints-last.pt"
+      }
+    },
+    {
+      "name": "adamw-A0-500-checkpoints-last.pt",
+      "verified": true,
+      "expected_bytes": 1637680053,
+      "expected_sha256": "dd2edf07a666ab1a7894ad5ac00559e800cec55474ab8165b1038f8f23f01db9",
+      "remote": {
+        "id": 637160343,
+        "size": 1637680053,
+        "state": "uploaded",
+        "digest": "sha256:dd2edf07a666ab1a7894ad5ac00559e800cec55474ab8165b1038f8f23f01db9",
+        "browser_download_url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/adamw-A0-500-checkpoints-last.pt"
+      }
+    },
+    {
+      "name": "adamw-A3-500-checkpoints-last.pt",
+      "verified": true,
+      "expected_bytes": 1270853755,
+      "expected_sha256": "3ed5cc3d321e4caf49313931942fb253fa8220a88a04c8c8333938378c9860c0",
+      "remote": {
+        "id": 637160336,
+        "size": 1270853755,
+        "state": "uploaded",
+        "digest": "sha256:3ed5cc3d321e4caf49313931942fb253fa8220a88a04c8c8333938378c9860c0",
+        "browser_download_url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/adamw-A3-500-checkpoints-last.pt"
+      }
+    },
+    {
+      "name": "archive-A0-before-checkpoint-fix-checkpoints-last.pt",
+      "verified": true,
+      "expected_bytes": 1483156791,
+      "expected_sha256": "9e9aeebf003d41d8824150cd7299f9425d1ab0dc8e3ec612b6566174484e13b2",
+      "remote": {
+        "id": 637160339,
+        "size": 1483156791,
+        "state": "uploaded",
+        "digest": "sha256:9e9aeebf003d41d8824150cd7299f9425d1ab0dc8e3ec612b6566174484e13b2",
+        "browser_download_url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/archive-A0-before-checkpoint-fix-checkpoints-last.pt"
+      }
+    },
+    {
+      "name": "preflight-A0-mb8-checkpoints-last.pt",
+      "verified": true,
+      "expected_bytes": 1483138009,
+      "expected_sha256": "4800549fc416a71dcff7a19b98fc53dd4512387ee631b999e04569352bbb0132",
+      "remote": {
+        "id": 637212634,
+        "size": 1483138009,
+        "state": "uploaded",
+        "digest": "sha256:4800549fc416a71dcff7a19b98fc53dd4512387ee631b999e04569352bbb0132",
+        "browser_download_url": "https://github.com/VinZch/llm-optimizer-benchmark/releases/download/rtx4060-adamw-a0-a3-2026-10-13/preflight-A0-mb8-checkpoints-last.pt"
+      }
+    }
+  ]
+}
