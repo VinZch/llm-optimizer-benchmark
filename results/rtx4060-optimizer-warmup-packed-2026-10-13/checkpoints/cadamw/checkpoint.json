@@ -1,8 +1,8 @@
 {
   "optimizer": "cadamw",
-  "variant": "A1",
+  "variant": "A5",
   "backend": "packed",
-  "step": 500,
-  "bytes": 1390548341,
-  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\cadamw\\A1"
+  "step": 250,
+  "bytes": 1023721723,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\cadamw\\A5"
 }

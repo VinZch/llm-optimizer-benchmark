@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "cadamw",
+  "variant": "A5",
+  "step": 280,
+  "target": 500,
+  "seconds": 567.0530522000045,
+  "pid": 9920,
+  "loss": 7.355751037597656
+}

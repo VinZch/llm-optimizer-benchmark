@@ -1,0 +1,14 @@
+{
+  "backend": "packed",
+  "state_codecs": [
+    "fp32",
+    "fp8"
+  ],
+  "group_size": 128,
+  "min_numel": 4096,
+  "rounding": "RNE",
+  "scale_dtype": "float32",
+  "quantization_time": "after upstream logical state writes",
+  "persistent_fp32_shadow": false,
+  "per_parameter_workspace": true
+}
