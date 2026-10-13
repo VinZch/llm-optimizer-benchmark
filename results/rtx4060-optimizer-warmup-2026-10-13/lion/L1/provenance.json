@@ -1,0 +1,9 @@
+{
+  "benchmark_commit": "7776f6b0b189707911d43f11853c40851fd058a8",
+  "sources": {
+    "scripts\\warmup_optimizer.py": "27517fd95d3d1720753efcaaf1debea159db67481dee29326b8952a4bc9d38bc",
+    "scripts\\benchmark_bridge.py": "d366fd7a9affdd4fe930ed03520fc00c3c1b3795e9c0e24be6a8622e977863c3",
+    "quantization\\state_simulation.py": "582932bed2e62011c8ca6479a6c38ec773f86649d524fab92d9bf1da36d380c7",
+    "quantization\\adamw.py": "0fb900e9220162c8aa7c31d0bad9a8fcae2d08a7084b5e9ca7c237161151613a"
+  }
+}

@@ -1,0 +1,17 @@
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 1, "target": 500, "seconds": 1.6674158996902406, "pid": 31748, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 10, "target": 500, "seconds": 12.958880600053817, "pid": 31748, "loss": 9.630428314208984}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 20, "target": 500, "seconds": 25.68042239965871, "pid": 31748, "loss": 9.426104545593262}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 30, "target": 500, "seconds": 39.238161799963564, "pid": 31748, "loss": 9.348855972290039}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 40, "target": 500, "seconds": 53.635802699718624, "pid": 31748, "loss": 9.351615905761719}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 50, "target": 500, "seconds": 67.85333069972694, "pid": 31748, "loss": 9.262040138244629}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 60, "target": 500, "seconds": 84.27277289982885, "pid": 31748, "loss": 8.92111587524414}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 70, "target": 500, "seconds": 99.37593839969486, "pid": 31748, "loss": 8.820954322814941}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 80, "target": 500, "seconds": 114.62137100007385, "pid": 31748, "loss": 8.841829299926758}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 90, "target": 500, "seconds": 129.79438719991595, "pid": 31748, "loss": 8.615745544433594}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 100, "target": 500, "seconds": 146.6829462000169, "pid": 31748, "loss": 8.497869491577148}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 110, "target": 500, "seconds": 163.29432039987296, "pid": 31748, "loss": 8.465174674987793}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 120, "target": 500, "seconds": 177.0260177999735, "pid": 31748, "loss": 8.473287582397461}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 130, "target": 500, "seconds": 191.85404449980706, "pid": 31748, "loss": 7.9305500984191895}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 140, "target": 500, "seconds": 207.1067423997447, "pid": 31748, "loss": 7.805692672729492}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 150, "target": 500, "seconds": 223.3363733999431, "pid": 31748, "loss": 7.901153087615967}
+{"status": "running", "optimizer": "lion", "variant": "L1", "step": 160, "target": 500, "seconds": 238.5393503997475, "pid": 31748, "loss": 7.834239959716797}

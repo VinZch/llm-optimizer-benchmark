@@ -1,15 +1,35 @@
 import copy
+import os
 import sys
 import unittest
 from pathlib import Path
 import torch
 ROOT=Path(__file__).resolve().parents[1]
+os.environ['TIKTOKEN_CACHE_DIR']=str(ROOT/'.tmp')
 sys.path[:0]=[str(ROOT),str(ROOT/'scripts')]
 from benchmark_bridge import factory_namespace,config_for
 from quantization.state_simulation import StateSimulation,variants
 from quantization.adamw import encode,decode
 
 class SimulationTests(unittest.TestCase):
+    def test_newton_muon_refresh_and_identity(self):
+        from models.llama import Llama
+        cfg=config_for('newton-muon'); cfg.device='cpu'; cfg.n_embd=16; cfg.n_head=2; cfg.n_layer=1
+        cfg.multiple_of=16; cfg.vocab_size=32; cfg.sequence_length=4; cfg.dropout=0.; cfg.newton_muon_precond_every=2
+        models=[]; opts=[]
+        for i in range(2):
+            torch.manual_seed(10); model=Llama(cfg)
+            opt=factory_namespace()['build_optimizer'](cfg,model,[dict(params=list(model.parameters()))],set())
+            models.append(model); opts.append(opt)
+        StateSimulation(opts[1],'newton-muon','L0')
+        for step in range(4):
+            x=torch.randint(0,32,(2,4)); y=torch.randint(0,32,(2,4))
+            for model,opt in zip(models,opts):
+                opt.zero_grad(set_to_none=True)
+                model(x,y,precond_flag=opt.precond_flag_for_step())['loss'].backward(); opt.step()
+            for a,b in zip(models[0].parameters(),models[1].parameters()): self.assertTrue(torch.equal(a,b))
+        self.assertTrue(any(bool(s.get('precond_ready',False)) for s in opts[1].state.values()))
+
     def make(self,name):
         cfg=config_for(name); cfg.device='cpu'; cfg.max_precond_dim=32
         model=torch.nn.Linear(64,64,bias=False)

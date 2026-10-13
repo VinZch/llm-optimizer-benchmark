@@ -19,7 +19,7 @@ def main():
     files=['WARMUP_MATRIX.md','quantization/state_simulation.py','scripts/benchmark_bridge.py',
            'scripts/warmup_optimizer.py','scripts/design_warmup.py','scripts/run_optimizer_warmup.py',
            'scripts/summarize_optimizer_warmup.py','scripts/publish_warmup_results.py','tests/test_state_simulation.py']
-    files += ['scripts/push_via_github_api.py','scripts/gn_warmup_step.py','tests/test_gn_accumulation.py']
+    files += ['scripts/push_via_github_api.py','scripts/verify_adamw_archive.py','scripts/gn_warmup_step.py','tests/test_gn_accumulation.py']
     for relative in files:
         target=REPO/relative; target.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(ROOT/relative,target)
     source=ROOT/'upstream/llm-optimizer-benchmark'; target=REPO/'upstream/llm-optimizer-benchmark'

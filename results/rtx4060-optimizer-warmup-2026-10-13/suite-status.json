@@ -1,10 +1,17 @@
 {
   "status": "running",
   "pid": 29844,
-  "updated": "2026-10-13T21:53:43.778428+08:00",
+  "updated": "2026-10-13T22:05:37.981130+08:00",
   "total": 88,
-  "completed": 0,
-  "results": [],
+  "completed": 1,
+  "results": [
+    {
+      "run": "lion/L0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    }
+  ],
   "deferred": [
     {
       "optimizer": "gn-prox",
@@ -35,6 +42,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "lion/L0",
-  "child_pid": 25884
+  "current": "lion/L1",
+  "child_pid": 31340
 }

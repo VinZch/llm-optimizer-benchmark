@@ -56,7 +56,9 @@ class StateSimulation:
             if isinstance(value,torch.Tensor):
                 role=self.role(p,key)
                 result.append(dict(canonical_parameter_name=name,shape=list(value.shape),branch=self.name,
-                    state_key=key,role=role[0] if role else 'protected',actually_used=True,
+                    state_key=key,role=role[0] if role else 'protected',
+                    actually_used=not(self.name in {'mars-lion','mars-shampoo'} and p.ndim==2 and key=='exp_avg_sq'),
+                    device=str(value.device),
                     payload_bytes=value.numel()*value.element_size(),metadata_bytes=0,
                     stored_dtype=str(value.dtype),codec='simulation_'+(role[1] if role else 'fp32'),
                     protected_reason='numel<4096' if value.numel()<4096 else ('algorithm_specific' if not role else None),
