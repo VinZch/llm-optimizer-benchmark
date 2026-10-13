@@ -27,3 +27,26 @@
 {"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 260, "target": 500, "seconds": 533.0373336998746, "pid": 9920, "loss": 7.374504089355469}
 {"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 270, "target": 500, "seconds": 549.5509580001235, "pid": 9920, "loss": 7.284992218017578}
 {"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 280, "target": 500, "seconds": 567.0530522000045, "pid": 9920, "loss": 7.355751037597656}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 290, "target": 500, "seconds": 587.7092726998962, "pid": 9920, "loss": 7.363598346710205}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 300, "target": 500, "seconds": 608.1050701001659, "pid": 9920, "loss": 7.197319984436035}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 310, "target": 500, "seconds": 627.8897835998796, "pid": 9920, "loss": 7.225288391113281}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 320, "target": 500, "seconds": 646.2997432998382, "pid": 9920, "loss": 7.255844593048096}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 330, "target": 500, "seconds": 663.6337294001132, "pid": 9920, "loss": 6.923208713531494}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 340, "target": 500, "seconds": 687.6771467998624, "pid": 9920, "loss": 6.8850531578063965}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 350, "target": 500, "seconds": 711.5922759999521, "pid": 9920, "loss": 6.904895305633545}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 360, "target": 500, "seconds": 740.8886142000556, "pid": 9920, "loss": 6.8468918800354}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 370, "target": 500, "seconds": 759.8407895998098, "pid": 9920, "loss": 6.71874475479126}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 380, "target": 500, "seconds": 778.2343516000547, "pid": 9920, "loss": 6.771053314208984}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 390, "target": 500, "seconds": 794.9183271997608, "pid": 9920, "loss": 6.685118675231934}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 400, "target": 500, "seconds": 812.8441551001742, "pid": 9920, "loss": 6.849737167358398}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 410, "target": 500, "seconds": 833.7093899999745, "pid": 9920, "loss": 6.896257400512695}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 420, "target": 500, "seconds": 852.6978611997329, "pid": 9920, "loss": 7.001452922821045}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 430, "target": 500, "seconds": 870.6592004997656, "pid": 9920, "loss": 6.853046417236328}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 440, "target": 500, "seconds": 887.3991601997986, "pid": 9920, "loss": 6.551718235015869}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 450, "target": 500, "seconds": 905.1706145000644, "pid": 9920, "loss": 6.484947204589844}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 460, "target": 500, "seconds": 923.238274499774, "pid": 9920, "loss": 6.60044002532959}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 470, "target": 500, "seconds": 939.865443199873, "pid": 9920, "loss": 6.333783149719238}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 480, "target": 500, "seconds": 956.5025563999079, "pid": 9920, "loss": 6.6696648597717285}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 490, "target": 500, "seconds": 973.3694238997996, "pid": 9920, "loss": 6.518534183502197}
+{"status": "running", "optimizer": "cadamw", "variant": "A5", "step": 500, "target": 500, "seconds": 995.0913172997534, "pid": 9920, "loss": 6.327961444854736}
+{"status": "completed", "steps": 500, "seconds": 995.1018981998786, "tokens_per_sec_including_eval": 8232.32275490498, "peak_allocated_bytes": 2756120064, "peak_reserved_bytes": 3414163456, "persistent_moment_bytes": 374719488, "persistent_optimizer_state_bytes": 374719488, "final_train_loss": 6.327961444854736, "final_val_loss": 6.4187828451395035, "backend": "packed", "max_simultaneously_decoded_parameters": 1, "max_decoded_numel": 77266944, "formal_resource_probe": false, "quality_conclusion": "500-step engineering smoke only"}

@@ -1,0 +1,8 @@
+{
+  "optimizer": "adopt",
+  "variant": "A3",
+  "backend": "packed",
+  "step": 250,
+  "bytes": 1270857787,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\adopt\\A3"
+}

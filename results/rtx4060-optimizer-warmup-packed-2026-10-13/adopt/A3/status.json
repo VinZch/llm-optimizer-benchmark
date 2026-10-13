@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "adopt",
+  "variant": "A3",
+  "step": 420,
+  "target": 500,
+  "seconds": 576.666485699825,
+  "pid": 1380,
+  "loss": 6.853899955749512
+}

@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T00:48:13.997134+08:00",
+  "updated": "2026-10-14T01:51:49.769650+08:00",
   "total": 88,
-  "completed": 11,
+  "completed": 16,
   "results": [
     {
       "run": "lion/L0",
@@ -70,6 +70,36 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "cadamw/A5",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "cadamw/A6",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "adopt/A0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "adopt/A1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "adopt/A2",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -102,6 +132,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "cadamw/A5",
-  "child_pid": 36376
+  "current": "adopt/A3",
+  "child_pid": 12900
 }
