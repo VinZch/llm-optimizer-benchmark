@@ -1,0 +1,22 @@
+test_bf16_bit_oracle (tests.test_adamw.StateTests.test_bf16_bit_oracle) ... ok
+test_cuda_codec_matches_cpu (tests.test_adamw.StateTests.test_cuda_codec_matches_cpu) ... ok
+test_fp8_oracle (tests.test_adamw.StateTests.test_fp8_oracle) ... ok
+test_identity_against_native (tests.test_adamw.StateTests.test_identity_against_native) ... ok
+test_native_fused_reference_tolerance (tests.test_adamw.StateTests.test_native_fused_reference_tolerance) ... ok
+test_resume (tests.test_adamw.StateTests.test_resume) ... ok
+test_shapes_small_zero_and_nonnegative (tests.test_adamw.StateTests.test_shapes_small_zero_and_nonnegative) ... ok
+test_old_state_storage_released (tests.test_checkpoint_io.CheckpointTest.test_old_state_storage_released) ... ok
+test_final_evaluation_covers_every_target_once (tests.test_full_run_utils.FullRunTests.test_final_evaluation_covers_every_target_once) ... ok
+test_resume_discards_uncheckpointed_and_partial_metrics (tests.test_full_run_utils.FullRunTests.test_resume_discards_uncheckpointed_and_partial_metrics) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.435s
+
+OK
+Full training failed: A5. Stopped; no automatic retry.
+ËùÔÚÎ»ÖÃ C:\Users\50709\Desktop\llm-quantization\scripts\run_adamw_full.ps1:33 ×Ö·û: 36
++ ... DE -ne 0) { throw "Full training failed: $variant. Stopped; no automa ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Full training f...utomatic retry.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Full training failed: A5. Stopped; no automatic retry.
+ 
