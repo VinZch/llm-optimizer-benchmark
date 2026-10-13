@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "adamw-magma",
-  "variant": "A4",
-  "step": 310,
-  "target": 500,
-  "seconds": 455.80282770004123,
-  "pid": 8060,
-  "loss": 7.50758171081543
+  "status": "completed",
+  "step": 500,
+  "pid": 8060
 }

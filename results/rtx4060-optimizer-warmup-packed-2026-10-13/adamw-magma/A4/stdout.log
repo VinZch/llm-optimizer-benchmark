@@ -30,3 +30,23 @@
 {"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 290, "target": 500, "seconds": 426.0018120999448, "pid": 8060, "loss": 7.6216721534729}
 {"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 300, "target": 500, "seconds": 439.7582010002807, "pid": 8060, "loss": 7.466431617736816}
 {"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 310, "target": 500, "seconds": 455.80282770004123, "pid": 8060, "loss": 7.50758171081543}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 320, "target": 500, "seconds": 475.04034990025684, "pid": 8060, "loss": 7.527394771575928}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 330, "target": 500, "seconds": 489.9866867000237, "pid": 8060, "loss": 7.185175895690918}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 340, "target": 500, "seconds": 505.006356399972, "pid": 8060, "loss": 7.213724136352539}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 350, "target": 500, "seconds": 519.8245299002156, "pid": 8060, "loss": 7.219714641571045}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 360, "target": 500, "seconds": 534.2837426001206, "pid": 8060, "loss": 7.173364639282227}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 370, "target": 500, "seconds": 550.8960405001417, "pid": 8060, "loss": 7.042423248291016}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 380, "target": 500, "seconds": 565.9503191001713, "pid": 8060, "loss": 7.119672775268555}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 390, "target": 500, "seconds": 581.0023582000285, "pid": 8060, "loss": 7.005038261413574}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 400, "target": 500, "seconds": 595.4287493000738, "pid": 8060, "loss": 7.123672008514404}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 410, "target": 500, "seconds": 609.7896072003059, "pid": 8060, "loss": 7.172763347625732}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 420, "target": 500, "seconds": 624.2095216000453, "pid": 8060, "loss": 7.256275177001953}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 430, "target": 500, "seconds": 638.8113024001941, "pid": 8060, "loss": 7.130834579467773}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 440, "target": 500, "seconds": 653.2524842000566, "pid": 8060, "loss": 6.85167932510376}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 450, "target": 500, "seconds": 668.7984833000228, "pid": 8060, "loss": 6.767660617828369}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 460, "target": 500, "seconds": 682.6625195001252, "pid": 8060, "loss": 6.899145603179932}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 470, "target": 500, "seconds": 696.6620208001696, "pid": 8060, "loss": 6.615935802459717}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 480, "target": 500, "seconds": 710.6050638002343, "pid": 8060, "loss": 6.938539028167725}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 490, "target": 500, "seconds": 724.5204664003104, "pid": 8060, "loss": 6.785670280456543}
+{"status": "running", "optimizer": "adamw-magma", "variant": "A4", "step": 500, "target": 500, "seconds": 745.9831836000085, "pid": 8060, "loss": 6.604057788848877}
+{"status": "completed", "steps": 500, "seconds": 745.9844893002883, "tokens_per_sec_including_eval": 10981.461568569419, "peak_allocated_bytes": 2995258880, "peak_reserved_bytes": 3466592256, "persistent_moment_bytes": 621855744, "persistent_optimizer_state_bytes": 621855984, "final_train_loss": 6.604057788848877, "final_val_loss": 6.704115122556686, "backend": "packed", "max_simultaneously_decoded_parameters": 1, "max_decoded_numel": 77266944, "formal_resource_probe": false, "quality_conclusion": "500-step engineering smoke only"}

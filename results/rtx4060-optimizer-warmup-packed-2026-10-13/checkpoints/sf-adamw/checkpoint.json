@@ -1,0 +1,8 @@
+{
+  "optimizer": "sf-adamw",
+  "variant": "S1",
+  "backend": "packed",
+  "step": 500,
+  "bytes": 1390547189,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\sf-adamw\\S1"
+}
