@@ -1,0 +1,9 @@
+{
+  "kind": "3-step full-124M preflight, not 500-step result",
+  "fp32_moment_bytes": 494349312,
+  "fp8_moment_bytes": 127506432,
+  "moment_saving_fraction": 0.7420721969164994,
+  "fp32_peak_allocated": 2846843392,
+  "fp8_peak_allocated": 2467914240,
+  "cuda_tests": "18 adapters / 88 configs; 256-step selected replay; checkpoint load/resume passed"
+}

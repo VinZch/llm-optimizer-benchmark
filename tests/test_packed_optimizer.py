@@ -1,4 +1,5 @@
 import copy
+import io
 import os
 import sys
 import unittest
@@ -103,7 +104,8 @@ class PackedTests(unittest.TestCase):
             torch.manual_seed(13); m0,o0,pack=make(name,'packed',variant)
             for p in m0.parameters(): p.grad=torch.randn_like(p)*.01
             o0.step()
-            saved=copy.deepcopy(o0.state_dict())
+            serialized=io.BytesIO(); torch.save(o0.state_dict(),serialized); serialized.seek(0)
+            saved=torch.load(serialized,map_location='cpu',weights_only=False)
             torch.manual_seed(13); m1,o1,_=make(name,'packed',variant)
             m1.load_state_dict(m0.state_dict()); o1.load_state_dict(saved)
             for p0,p1 in zip(m0.parameters(),m1.parameters()): p0.grad=torch.ones_like(p0)*.001; p1.grad=p0.grad.clone()

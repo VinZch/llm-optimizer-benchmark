@@ -1,0 +1,29 @@
+test_256_update_replay (tests.test_packed_optimizer.PackedTests.test_256_update_replay) ... ok
+test_native_identity_all_optimizers (tests.test_packed_optimizer.PackedTests.test_native_identity_all_optimizers) ... ok
+test_packed_matches_recurrent_simulation_all_variants (tests.test_packed_optimizer.PackedTests.test_packed_matches_recurrent_simulation_all_variants) ... ok
+test_storage_checkpoint_and_resume (tests.test_packed_optimizer.PackedTests.test_storage_checkpoint_and_resume) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 14.590s
+
+OK
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay
+Using decoupled weight decay

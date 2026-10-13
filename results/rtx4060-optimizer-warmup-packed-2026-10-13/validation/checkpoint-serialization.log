@@ -1,0 +1,8 @@
+test_storage_checkpoint_and_resume (tests.test_packed_optimizer.PackedTests.test_storage_checkpoint_and_resume) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.450s
+
+OK
+Using decoupled weight decay
+Using decoupled weight decay

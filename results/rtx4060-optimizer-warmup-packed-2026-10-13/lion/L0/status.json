@@ -2,9 +2,9 @@
   "status": "running",
   "optimizer": "lion",
   "variant": "L0",
-  "step": 60,
+  "step": 160,
   "target": 500,
-  "seconds": 72.0732292002067,
+  "seconds": 195.65222710045055,
   "pid": 23308,
-  "loss": 8.921061515808105
+  "loss": 7.834207534790039
 }

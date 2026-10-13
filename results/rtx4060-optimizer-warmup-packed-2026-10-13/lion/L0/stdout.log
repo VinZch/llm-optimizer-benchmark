@@ -5,3 +5,13 @@
 {"status": "running", "optimizer": "lion", "variant": "L0", "step": 40, "target": 500, "seconds": 48.06166890030727, "pid": 23308, "loss": 9.351625442504883}
 {"status": "running", "optimizer": "lion", "variant": "L0", "step": 50, "target": 500, "seconds": 60.01524280011654, "pid": 23308, "loss": 9.262015342712402}
 {"status": "running", "optimizer": "lion", "variant": "L0", "step": 60, "target": 500, "seconds": 72.0732292002067, "pid": 23308, "loss": 8.921061515808105}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 70, "target": 500, "seconds": 84.3438914003782, "pid": 23308, "loss": 8.820893287658691}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 80, "target": 500, "seconds": 96.46637740032747, "pid": 23308, "loss": 8.841852188110352}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 90, "target": 500, "seconds": 108.60744700022042, "pid": 23308, "loss": 8.615686416625977}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 100, "target": 500, "seconds": 120.85146270040423, "pid": 23308, "loss": 8.49769401550293}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 110, "target": 500, "seconds": 133.2725248001516, "pid": 23308, "loss": 8.465117454528809}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 120, "target": 500, "seconds": 145.74741630023345, "pid": 23308, "loss": 8.473299026489258}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 130, "target": 500, "seconds": 158.15484170010313, "pid": 23308, "loss": 7.930502414703369}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 140, "target": 500, "seconds": 170.50676570041105, "pid": 23308, "loss": 7.805752754211426}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 150, "target": 500, "seconds": 182.91070520039648, "pid": 23308, "loss": 7.901086807250977}
+{"status": "running", "optimizer": "lion", "variant": "L0", "step": 160, "target": 500, "seconds": 195.65222710045055, "pid": 23308, "loss": 7.834207534790039}
