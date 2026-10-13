@@ -1,12 +1,18 @@
 {
-  "status": "running",
+  "status": "stopped_by_user",
   "pid": 29844,
-  "updated": "2026-10-13T22:05:37.981130+08:00",
+  "updated": "2026-10-13T22:28:32.177456+08:00",
   "total": 88,
-  "completed": 1,
+  "completed": 2,
   "results": [
     {
       "run": "lion/L0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "lion/L1",
       "status": "completed",
       "exit_code": 0,
       "detail": null
@@ -42,6 +48,7 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "lion/L1",
-  "child_pid": 31340
+  "current": "lion/L2",
+  "child_pid": 14264,
+  "reason": "User requires actual packed state storage; simulation queue superseded"
 }

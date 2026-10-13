@@ -1,0 +1,1 @@
+Stopped by the user. Simulation results are retained for provenance; the active suite uses real packed storage in ../rtx4060-optimizer-warmup-packed-2026-10-13/.

@@ -1,5 +1,6 @@
 """Sequential grouped queue; preserves failures and never automatically retries."""
 import json
+import argparse
 import os
 from pathlib import Path
 import subprocess
@@ -10,7 +11,9 @@ import msvcrt
 from warmup_optimizer import ROOT,write_json
 
 def main():
-    root=ROOT/'runs/optimizer-warmup'
+    parser=argparse.ArgumentParser(); parser.add_argument('--root',type=Path,default=ROOT/'runs/optimizer-warmup-packed')
+    root=parser.parse_args().root
+    if (root/'STOP-SIMULATION').exists(): raise RuntimeError('This simulation suite was stopped by the user')
     matrix=json.loads((root/'matrix.json').read_text())
     lock=(root/'suite.lock').open('a+b'); lock.seek(0); lock.write(b'0'); lock.flush(); lock.seek(0)
     msvcrt.locking(lock.fileno(),msvcrt.LK_NBLCK,1)
@@ -35,6 +38,8 @@ def main():
                 results.append(dict(run=key,status='existing_incomplete',detail=previous)); blocked.add(name); continue
             out.mkdir(parents=True,exist_ok=True)
             command=[sys.executable,str(ROOT/'scripts/warmup_optimizer.py'),'--optimizer',name,'--variant',variant,
+                     '--backend',row['backend'],
+                     '--checkpoint-root',str(root/'checkpoints'),
                      '--steps',str(row['steps']),'--microbatch',str(row['microbatch']),'--output',str(out)]
             with (out/'stdout.log').open('w',encoding='utf-8') as stdout,(out/'stderr.log').open('w',encoding='utf-8') as stderr:
                 child=subprocess.Popen(command,cwd=ROOT,stdout=stdout,stderr=stderr)
@@ -44,7 +49,7 @@ def main():
             success=code==0 and trial.get('status')=='completed' and trial.get('step')==row['steps']
             results.append(dict(run=key,status='completed' if success else 'failed',exit_code=code,detail=None if success else trial))
             if not success and variant.endswith('0'): blocked.add(name)
-            subprocess.run([sys.executable,str(ROOT/'scripts/summarize_optimizer_warmup.py')],cwd=ROOT,check=False)
+            subprocess.run([sys.executable,str(ROOT/'scripts/summarize_optimizer_warmup.py'),'--root',str(root)],cwd=ROOT,check=False)
             status('running',last_run=key)
         status('finished_with_omissions' if matrix['deferred'] or any(r['status']!='completed' for r in results) else 'completed')
     except Exception as exc:

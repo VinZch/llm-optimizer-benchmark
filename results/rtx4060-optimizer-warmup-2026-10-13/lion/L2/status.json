@@ -1,0 +1,12 @@
+{
+  "status": "stopped_by_user",
+  "optimizer": "lion",
+  "variant": "L2",
+  "step": 290,
+  "target": 500,
+  "seconds": 443.7976520000957,
+  "pid": 39452,
+  "loss": 7.08928108215332,
+  "reason": "User requires actual packed state storage; simulation queue superseded",
+  "updated": "2026-10-13T22:28:32.178286+08:00"
+}

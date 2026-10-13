@@ -1,0 +1,40 @@
+{
+  "status": "running",
+  "pid": 39864,
+  "updated": "2026-10-13T22:34:56.975480+08:00",
+  "total": 88,
+  "completed": 0,
+  "results": [],
+  "deferred": [
+    {
+      "optimizer": "gn-prox",
+      "variants": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "status": "pending_inner_loop_validation",
+      "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
+    },
+    {
+      "optimizer": "gn-full",
+      "variants": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "status": "pending_inner_loop_validation",
+      "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
+    }
+  ],
+  "current": "lion/L0",
+  "child_pid": 7780
+}

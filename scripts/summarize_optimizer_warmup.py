@@ -1,5 +1,6 @@
 """Create plot-ready CSV, comparison and loss figures, preserving raw measurements."""
 import csv
+import argparse
 import json
 import os
 from pathlib import Path
@@ -7,7 +8,8 @@ from collections import defaultdict
 from warmup_optimizer import ROOT,write_json
 
 def main():
-    root=ROOT/'runs/optimizer-warmup'; comparisons=[]
+    parser=argparse.ArgumentParser(); parser.add_argument('--root',type=Path,default=ROOT/'runs/optimizer-warmup-packed')
+    root=parser.parse_args().root; comparisons=[]
     os.environ.setdefault('MPLCONFIGDIR',str(ROOT/'.tmp/matplotlib'))
     try:
         import matplotlib
@@ -16,6 +18,7 @@ def main():
     except ImportError:
         plt=None
     matrix=json.loads((root/'matrix.json').read_text())
+    backend=matrix.get('backend','simulation')
     for name in dict.fromkeys(r['optimizer'] for r in matrix['runs']):
         group=root/name
         if not group.exists(): continue
@@ -42,10 +45,10 @@ def main():
                 ax.set_title(title); ax.set_xlabel('Optimizer step'); ax.set_ylabel('Cross entropy'); ax.grid(alpha=.25)
                 if ax.lines: ax.legend()
                 else: ax.text(.5,.5,'No evaluation recorded yet',ha='center',va='center',transform=ax.transAxes)
-            fig.suptitle(f'{name}: state-rounding simulation, seed 0'); fig.tight_layout()
+            fig.suptitle(f'{name}: {backend} state storage, seed 0'); fig.tight_layout()
             fig.savefig(group/'loss-curves.svg'); fig.savefig(group/'loss-curves.png',dpi=150); plt.close(fig)
     write_json(root/'comparison.json',comparisons)
-    lines=['# Warmup results','', '500-step single-seed state-rounding simulations; FP32 persistent storage. No packed-memory or convergence claims.','',
+    lines=['# Warmup results','', f'500-step single-seed {backend} optimizer states. Engineering memory/time measurements; no convergence or fused-kernel speedup claims.','',
            '|Optimizer|Variant|Steps|Final val loss|Seconds|Peak GiB|','|---|---|---:|---:|---:|---:|']
     for r in comparisons: lines.append(f"|{r['optimizer']}|{r['variant']}|{r['steps']}|{r['final_val_loss']:.6f}|{r['seconds']:.1f}|{r['peak_allocated_bytes']/2**30:.3f}|")
     (root/'RESULTS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
