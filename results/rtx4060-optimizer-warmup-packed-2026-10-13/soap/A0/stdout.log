@@ -30,3 +30,23 @@
 {"status": "running", "optimizer": "soap", "variant": "A0", "step": 290, "target": 500, "seconds": 568.6372214998119, "pid": 24596, "loss": 8.619401931762695}
 {"status": "running", "optimizer": "soap", "variant": "A0", "step": 300, "target": 500, "seconds": 586.9650024999864, "pid": 24596, "loss": 8.435943603515625}
 {"status": "running", "optimizer": "soap", "variant": "A0", "step": 310, "target": 500, "seconds": 605.5094280997291, "pid": 24596, "loss": 8.468199729919434}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 320, "target": 500, "seconds": 625.7831318997778, "pid": 24596, "loss": 8.425507545471191}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 330, "target": 500, "seconds": 646.0249389000237, "pid": 24596, "loss": 8.11213493347168}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 340, "target": 500, "seconds": 666.7300630998798, "pid": 24596, "loss": 8.126603126525879}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 350, "target": 500, "seconds": 687.0026523997076, "pid": 24596, "loss": 8.138043403625488}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 360, "target": 500, "seconds": 706.2543107001111, "pid": 24596, "loss": 8.010110855102539}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 370, "target": 500, "seconds": 725.6548005999066, "pid": 24596, "loss": 7.879558563232422}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 380, "target": 500, "seconds": 746.9673349997029, "pid": 24596, "loss": 7.967832088470459}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 390, "target": 500, "seconds": 765.4159963000566, "pid": 24596, "loss": 7.8634490966796875}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 400, "target": 500, "seconds": 784.102740299888, "pid": 24596, "loss": 8.017337799072266}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 410, "target": 500, "seconds": 802.9804039001465, "pid": 24596, "loss": 8.040227890014648}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 420, "target": 500, "seconds": 821.6581353000365, "pid": 24596, "loss": 8.089293479919434}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 430, "target": 500, "seconds": 840.171122000087, "pid": 24596, "loss": 7.920925140380859}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 440, "target": 500, "seconds": 858.6896395999938, "pid": 24596, "loss": 7.655318260192871}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 450, "target": 500, "seconds": 877.0970363998786, "pid": 24596, "loss": 7.517164707183838}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 460, "target": 500, "seconds": 895.4910101997666, "pid": 24596, "loss": 7.627328395843506}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 470, "target": 500, "seconds": 914.739132899791, "pid": 24596, "loss": 7.289405822753906}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 480, "target": 500, "seconds": 934.4223046000116, "pid": 24596, "loss": 7.659348011016846}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 490, "target": 500, "seconds": 953.4302345998585, "pid": 24596, "loss": 7.4833455085754395}
+{"status": "running", "optimizer": "soap", "variant": "A0", "step": 500, "target": 500, "seconds": 990.5865442999639, "pid": 24596, "loss": 7.222350120544434}
+{"status": "completed", "steps": 500, "seconds": 990.642948300112, "tokens_per_sec_including_eval": 8269.376988002605, "peak_allocated_bytes": 5495361024, "peak_reserved_bytes": 5790236672, "persistent_moment_bytes": 988698624, "persistent_optimizer_state_bytes": 3050723328, "final_train_loss": 7.222350120544434, "final_val_loss": 7.324389576911926, "backend": "packed", "max_simultaneously_decoded_parameters": 1, "max_decoded_numel": 77266944, "formal_resource_probe": false, "quality_conclusion": "500-step engineering smoke only"}

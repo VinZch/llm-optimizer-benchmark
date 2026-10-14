@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "soap",
-  "variant": "A0",
-  "step": 310,
-  "target": 500,
-  "seconds": 605.5094280997291,
-  "pid": 24596,
-  "loss": 8.468199729919434
+  "status": "completed",
+  "step": 500,
+  "pid": 24596
 }

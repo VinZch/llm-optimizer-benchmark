@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T14:55:07.040745+08:00",
+  "updated": "2026-10-14T16:01:26.206771+08:00",
   "total": 88,
-  "completed": 78,
+  "completed": 82,
   "results": [
     {
       "run": "lion/L0",
@@ -472,6 +472,30 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "soap/A0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "soap/A1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "soap/A2",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "soap/A3",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -504,6 +528,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "soap/A0",
-  "child_pid": 42340
+  "current": "soap/A4",
+  "child_pid": 20456
 }

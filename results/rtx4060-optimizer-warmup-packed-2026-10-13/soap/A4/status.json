@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "soap",
+  "variant": "A4",
+  "step": 30,
+  "target": 500,
+  "seconds": 57.77557560009882,
+  "pid": 43332,
+  "loss": 10.424402236938477
+}

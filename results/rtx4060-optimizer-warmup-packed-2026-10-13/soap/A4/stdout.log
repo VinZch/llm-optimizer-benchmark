@@ -1,0 +1,4 @@
+{"status": "running", "optimizer": "soap", "variant": "A4", "step": 1, "target": 500, "seconds": 6.041025400161743, "pid": 43332, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "soap", "variant": "A4", "step": 10, "target": 500, "seconds": 20.9132906999439, "pid": 43332, "loss": 10.478551864624023}
+{"status": "running", "optimizer": "soap", "variant": "A4", "step": 20, "target": 500, "seconds": 39.15496559999883, "pid": 43332, "loss": 10.449934005737305}
+{"status": "running", "optimizer": "soap", "variant": "A4", "step": 30, "target": 500, "seconds": 57.77557560009882, "pid": 43332, "loss": 10.424402236938477}
