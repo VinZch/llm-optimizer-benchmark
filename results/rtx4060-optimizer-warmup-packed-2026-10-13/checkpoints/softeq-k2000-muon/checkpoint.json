@@ -1,0 +1,8 @@
+{
+  "optimizer": "softeq-k2000-muon",
+  "variant": "L2",
+  "backend": "packed",
+  "step": 500,
+  "bytes": 1045788021,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\softeq-k2000-muon\\L2"
+}

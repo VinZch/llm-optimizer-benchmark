@@ -1,8 +1,8 @@
 {
   "optimizer": "muon-magma",
-  "variant": "L1",
+  "variant": "L2",
   "backend": "packed",
   "step": 500,
-  "bytes": 1128067445,
-  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\muon-magma\\L1"
+  "bytes": 1045803069,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\muon-magma\\L2"
 }

@@ -1,0 +1,8 @@
+{
+  "optimizer": "soap",
+  "variant": "A0",
+  "backend": "packed",
+  "step": 250,
+  "bytes": 3699779025,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\soap\\A0"
+}
