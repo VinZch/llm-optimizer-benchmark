@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-10-14T17:58:20.101865+08:00",
+  "finished_at": "2026-10-14T17:54:50.700610+08:00",
+  "planned": 88,
+  "completed": 88,
+  "optimizers": 18,
+  "steps_per_configuration": 500,
+  "total_optimizer_steps": 44000,
+  "summed_run_seconds": 68176.4304883997,
+  "summary_rows": 88,
+  "failed": [],
+  "deferred": [
+    {
+      "optimizer": "gn-prox",
+      "variants": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "status": "pending_inner_loop_validation",
+      "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
+    },
+    {
+      "optimizer": "gn-full",
+      "variants": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "status": "pending_inner_loop_validation",
+      "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
+    }
+  ],
+  "checks": "status and summary steps; finite final validation loss; all inventory payload+metadata byte counts; comparison values; per-optimizer PNG/SVG; one-parameter decode bound",
+  "errors": []
+}
