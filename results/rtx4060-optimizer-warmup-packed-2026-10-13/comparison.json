@@ -1556,5 +1556,43 @@
     "max_decoded_numel": 77266944,
     "formal_resource_probe": false,
     "quality_conclusion": "500-step engineering smoke only"
+  },
+  {
+    "optimizer": "soap",
+    "variant": "A4",
+    "status": "completed",
+    "steps": 500,
+    "seconds": 1004.3016723999754,
+    "tokens_per_sec_including_eval": 8156.911638336331,
+    "peak_allocated_bytes": 5086088704,
+    "peak_reserved_bytes": 5867831296,
+    "persistent_moment_bytes": 621855744,
+    "persistent_optimizer_state_bytes": 2683880448,
+    "final_train_loss": 7.260449409484863,
+    "final_val_loss": 7.364031493663788,
+    "backend": "packed",
+    "max_simultaneously_decoded_parameters": 1,
+    "max_decoded_numel": 77266944,
+    "formal_resource_probe": false,
+    "quality_conclusion": "500-step engineering smoke only"
+  },
+  {
+    "optimizer": "soap",
+    "variant": "A5",
+    "status": "completed",
+    "steps": 500,
+    "seconds": 1263.9200273002498,
+    "tokens_per_sec_including_eval": 6481.422734868932,
+    "peak_allocated_bytes": 4855598592,
+    "peak_reserved_bytes": 5658116096,
+    "persistent_moment_bytes": 374719488,
+    "persistent_optimizer_state_bytes": 2436744192,
+    "final_train_loss": 7.207418441772461,
+    "final_val_loss": 7.314097374677658,
+    "backend": "packed",
+    "max_simultaneously_decoded_parameters": 1,
+    "max_decoded_numel": 77266944,
+    "formal_resource_probe": false,
+    "quality_conclusion": "500-step engineering smoke only"
   }
 ]
