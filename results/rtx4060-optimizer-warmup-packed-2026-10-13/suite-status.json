@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T11:59:34.858560+08:00",
+  "updated": "2026-10-14T12:39:59.857231+08:00",
   "total": 88,
-  "completed": 65,
+  "completed": 68,
   "results": [
     {
       "run": "lion/L0",
@@ -394,6 +394,24 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "sophiag/H6",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "muon/L0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "muon/L1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -426,6 +444,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "sophiag/H6",
-  "child_pid": 39228
+  "current": "muon/L2",
+  "child_pid": 42924
 }

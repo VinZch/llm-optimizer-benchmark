@@ -1,8 +1,8 @@
 {
   "optimizer": "sophiag",
-  "variant": "H5",
+  "variant": "H6",
   "backend": "packed",
   "step": 500,
-  "bytes": 1023742991,
-  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\sophiag\\H5"
+  "bytes": 904052629,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\sophiag\\H6"
 }

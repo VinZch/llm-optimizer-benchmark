@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "sophiag",
-  "variant": "H6",
-  "step": 240,
-  "target": 500,
-  "seconds": 335.7522998000495,
-  "pid": 20684,
-  "loss": 6.677499771118164
+  "status": "completed",
+  "step": 500,
+  "pid": 20684
 }
