@@ -1,10 +1,5 @@
 {
-  "status": "running",
-  "optimizer": "muon",
-  "variant": "L2",
-  "step": 170,
-  "target": 500,
-  "seconds": 285.6764050000347,
-  "pid": 12740,
-  "loss": 8.369827270507812
+  "status": "completed",
+  "step": 500,
+  "pid": 12740
 }

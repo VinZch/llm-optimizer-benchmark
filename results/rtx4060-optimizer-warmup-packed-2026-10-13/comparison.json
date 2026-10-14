@@ -1290,5 +1290,24 @@
     "max_decoded_numel": 1769472,
     "formal_resource_probe": false,
     "quality_conclusion": "500-step engineering smoke only"
+  },
+  {
+    "optimizer": "muon",
+    "variant": "L2",
+    "status": "completed",
+    "steps": 500,
+    "seconds": 857.0840229997411,
+    "tokens_per_sec_including_eval": 9557.989392135098,
+    "peak_allocated_bytes": 2753105408,
+    "peak_reserved_bytes": 3053453312,
+    "persistent_moment_bytes": 87588864,
+    "persistent_optimizer_state_bytes": 396810240,
+    "final_train_loss": 6.407010078430176,
+    "final_val_loss": 6.5005455911159515,
+    "backend": "packed",
+    "max_simultaneously_decoded_parameters": 1,
+    "max_decoded_numel": 1769472,
+    "formal_resource_probe": false,
+    "quality_conclusion": "500-step engineering smoke only"
   }
 ]
