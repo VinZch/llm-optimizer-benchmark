@@ -1,0 +1,8 @@
+{
+  "optimizer": "mars-lion",
+  "variant": "L2",
+  "backend": "packed",
+  "step": 500,
+  "bytes": 1765223375,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\mars-lion\\L2"
+}

@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T08:54:19.573706+08:00",
+  "updated": "2026-10-14T09:53:58.274042+08:00",
   "total": 88,
-  "completed": 51,
+  "completed": 56,
   "results": [
     {
       "run": "lion/L0",
@@ -310,6 +310,36 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "mars-adamw/A5",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "mars-adamw/A6",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "mars-lion/L0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "mars-lion/L1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "mars-lion/L2",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -342,6 +372,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "mars-adamw/A5",
-  "child_pid": 34640
+  "current": "mars-shampoo/L0",
+  "child_pid": 41032
 }

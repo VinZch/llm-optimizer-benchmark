@@ -1,8 +1,8 @@
 {
   "optimizer": "mars-adamw",
-  "variant": "A4",
+  "variant": "A6",
   "backend": "packed",
   "step": 500,
-  "bytes": 1765227727,
-  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\mars-adamw\\A4"
+  "bytes": 1398401301,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\mars-adamw\\A6"
 }

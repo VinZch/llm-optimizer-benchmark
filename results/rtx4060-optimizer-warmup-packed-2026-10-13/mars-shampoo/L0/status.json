@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "mars-shampoo",
+  "variant": "L0",
+  "step": 230,
+  "target": 500,
+  "seconds": 503.62470880011097,
+  "pid": 21384,
+  "loss": 9.717849731445312
+}

@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "steps": 500,
+  "seconds": 676.7609195997939,
+  "tokens_per_sec_including_eval": 12104.717874141406,
+  "peak_allocated_bytes": 3866212864,
+  "peak_reserved_bytes": 4028628992,
+  "persistent_moment_bytes": 494272512,
+  "persistent_optimizer_state_bytes": 1483047936,
+  "final_train_loss": 5.764460563659668,
+  "final_val_loss": 5.802803084254265,
+  "backend": "packed",
+  "max_simultaneously_decoded_parameters": 1,
+  "max_decoded_numel": 38633472,
+  "formal_resource_probe": false,
+  "quality_conclusion": "500-step engineering smoke only"
+}

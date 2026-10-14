@@ -1,0 +1,4374 @@
+[
+  {
+    "canonical_parameter_name": "transformer.wte.weight",
+    "shape": [
+      50304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 77266944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.wte.weight",
+    "shape": [
+      50304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 154533888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.wte.weight",
+    "shape": [
+      50304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 154533888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.0.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.1.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.2.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.3.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.4.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.5.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.6.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.7.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.8.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.9.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.10.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.ln_1.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3538944,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.attn.c_attn.weight",
+    "shape": [
+      2304,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 7077888,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 1179648,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.attn.c_proj.weight",
+    "shape": [
+      768,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 2359296,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.ln_2.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.w1.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.w2.weight",
+    "shape": [
+      2048,
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "m",
+    "actually_used": true,
+    "payload_bytes": 3145728,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "codec": "bf16",
+    "writes": 500,
+    "protected_reason": null
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.h.11.mlp.c_proj.weight",
+    "shape": [
+      768,
+      2048
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": false,
+    "payload_bytes": 6291456,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.ln_f.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.ln_f.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "last_grad",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  },
+  {
+    "canonical_parameter_name": "transformer.ln_f.weight",
+    "shape": [
+      768
+    ],
+    "branch": "mars-lion",
+    "state_key": "exp_avg_sq",
+    "role": "protected",
+    "actually_used": true,
+    "payload_bytes": 3072,
+    "metadata_bytes": 0,
+    "stored_dtype": "torch.float32",
+    "device": "cuda:0",
+    "codec": "native",
+    "protected_reason": "algorithm_specific"
+  }
+]
