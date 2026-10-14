@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "muon-magma",
+  "variant": "L2",
+  "step": 90,
+  "target": 500,
+  "seconds": 148.65572310006246,
+  "pid": 38620,
+  "loss": 10.396261215209961
+}

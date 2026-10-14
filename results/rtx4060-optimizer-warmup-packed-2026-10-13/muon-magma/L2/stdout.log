@@ -1,0 +1,10 @@
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 1, "target": 500, "seconds": 2.0631371000781655, "pid": 38620, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 10, "target": 500, "seconds": 16.132487199734896, "pid": 38620, "loss": 10.83843994140625}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 20, "target": 500, "seconds": 31.88088950002566, "pid": 38620, "loss": 10.816091537475586}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 30, "target": 500, "seconds": 47.69652529992163, "pid": 38620, "loss": 10.797592163085938}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 40, "target": 500, "seconds": 64.33628210006282, "pid": 38620, "loss": 10.774019241333008}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 50, "target": 500, "seconds": 80.69600569969043, "pid": 38620, "loss": 10.759727478027344}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 60, "target": 500, "seconds": 96.97056319983676, "pid": 38620, "loss": 10.624774932861328}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 70, "target": 500, "seconds": 113.60789059987292, "pid": 38620, "loss": 10.570024490356445}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 80, "target": 500, "seconds": 130.03412189986557, "pid": 38620, "loss": 10.553020477294922}
+{"status": "running", "optimizer": "muon-magma", "variant": "L2", "step": 90, "target": 500, "seconds": 148.65572310006246, "pid": 38620, "loss": 10.396261215209961}

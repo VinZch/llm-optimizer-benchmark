@@ -1,0 +1,8 @@
+{
+  "optimizer": "d-muon",
+  "variant": "L2",
+  "backend": "packed",
+  "step": 500,
+  "bytes": 1045787829,
+  "source_run": "C:\\Users\\50709\\Desktop\\llm-quantization\\runs\\optimizer-warmup-packed\\d-muon\\L2"
+}

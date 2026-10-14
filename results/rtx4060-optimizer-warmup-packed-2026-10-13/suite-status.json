@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T12:54:33.181461+08:00",
+  "updated": "2026-10-14T14:01:17.302112+08:00",
   "total": 88,
-  "completed": 69,
+  "completed": 74,
   "results": [
     {
       "run": "lion/L0",
@@ -418,6 +418,36 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "d-muon/L0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "d-muon/L1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "d-muon/L2",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "muon-magma/L0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "muon-magma/L1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -450,6 +480,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "d-muon/L0",
-  "child_pid": 35520
+  "current": "muon-magma/L2",
+  "child_pid": 12900
 }
