@@ -1594,5 +1594,43 @@
     "max_decoded_numel": 77266944,
     "formal_resource_probe": false,
     "quality_conclusion": "500-step engineering smoke only"
+  },
+  {
+    "optimizer": "soap",
+    "variant": "A6",
+    "status": "completed",
+    "steps": 500,
+    "seconds": 1310.4563893000595,
+    "tokens_per_sec_including_eval": 6251.257246626504,
+    "peak_allocated_bytes": 4721643008,
+    "peak_reserved_bytes": 5496635392,
+    "persistent_moment_bytes": 255012864,
+    "persistent_optimizer_state_bytes": 2317037568,
+    "final_train_loss": 7.23200798034668,
+    "final_val_loss": 7.33894807100296,
+    "backend": "packed",
+    "max_simultaneously_decoded_parameters": 1,
+    "max_decoded_numel": 77266944,
+    "formal_resource_probe": false,
+    "quality_conclusion": "500-step engineering smoke only"
+  },
+  {
+    "optimizer": "newton-muon",
+    "variant": "L0",
+    "status": "completed",
+    "steps": 500,
+    "seconds": 1169.8044521999545,
+    "tokens_per_sec_including_eval": 7002.879827131776,
+    "peak_allocated_bytes": 3499582976,
+    "peak_reserved_bytes": 3661627392,
+    "persistent_moment_bytes": 339738624,
+    "persistent_optimizer_state_bytes": 1111382268,
+    "final_train_loss": 6.402657985687256,
+    "final_val_loss": 6.503607451915741,
+    "backend": "packed",
+    "max_simultaneously_decoded_parameters": 1,
+    "max_decoded_numel": 1769472,
+    "formal_resource_probe": false,
+    "quality_conclusion": "500-step engineering smoke only"
   }
 ]

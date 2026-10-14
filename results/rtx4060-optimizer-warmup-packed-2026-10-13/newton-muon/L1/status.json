@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "newton-muon",
+  "variant": "L1",
+  "step": 60,
+  "target": 500,
+  "seconds": 120.76473710034043,
+  "pid": 33108,
+  "loss": 10.27013111114502
+}
