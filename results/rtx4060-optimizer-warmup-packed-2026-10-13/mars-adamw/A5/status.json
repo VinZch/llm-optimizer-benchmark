@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "mars-adamw",
+  "variant": "A5",
+  "step": 200,
+  "target": 500,
+  "seconds": 275.1726430999115,
+  "pid": 36376,
+  "loss": 6.909171104431152
+}
