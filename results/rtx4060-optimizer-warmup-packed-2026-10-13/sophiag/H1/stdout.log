@@ -1,0 +1,10 @@
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 1, "target": 500, "seconds": 1.5994048002175987, "pid": 12872, "loss": 10.959564208984375}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 10, "target": 500, "seconds": 12.865185100119561, "pid": 12872, "loss": 9.601075172424316}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 20, "target": 500, "seconds": 25.875917700119317, "pid": 12872, "loss": 9.431520462036133}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 30, "target": 500, "seconds": 39.017941100057214, "pid": 12872, "loss": 9.341818809509277}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 40, "target": 500, "seconds": 51.630753099918365, "pid": 12872, "loss": 9.348099708557129}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 50, "target": 500, "seconds": 64.26175429997966, "pid": 12872, "loss": 9.251001358032227}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 60, "target": 500, "seconds": 76.97422999981791, "pid": 12872, "loss": 8.868746757507324}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 70, "target": 500, "seconds": 89.69779480015859, "pid": 12872, "loss": 8.767704010009766}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 80, "target": 500, "seconds": 102.45529680000618, "pid": 12872, "loss": 8.793354988098145}
+{"status": "running", "optimizer": "sophiag", "variant": "H1", "step": 90, "target": 500, "seconds": 115.36664960021153, "pid": 12872, "loss": 8.574440002441406}

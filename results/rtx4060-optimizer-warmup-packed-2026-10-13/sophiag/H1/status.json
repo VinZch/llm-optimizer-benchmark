@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "optimizer": "sophiag",
+  "variant": "H1",
+  "step": 90,
+  "target": 500,
+  "seconds": 115.36664960021153,
+  "pid": 12872,
+  "loss": 8.574440002441406
+}

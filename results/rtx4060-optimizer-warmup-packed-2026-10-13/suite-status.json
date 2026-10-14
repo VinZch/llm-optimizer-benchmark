@@ -1,9 +1,9 @@
 {
   "status": "running",
   "pid": 39864,
-  "updated": "2026-10-14T09:53:58.274042+08:00",
+  "updated": "2026-10-14T11:01:58.529523+08:00",
   "total": 88,
-  "completed": 56,
+  "completed": 60,
   "results": [
     {
       "run": "lion/L0",
@@ -340,6 +340,30 @@
       "status": "completed",
       "exit_code": 0,
       "detail": null
+    },
+    {
+      "run": "mars-shampoo/L0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "mars-shampoo/L1",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "mars-shampoo/L2",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
+    },
+    {
+      "run": "sophiag/H0",
+      "status": "completed",
+      "exit_code": 0,
+      "detail": null
     }
   ],
   "deferred": [
@@ -372,6 +396,6 @@
       "reason": "GN 8-inner-step JVP objective requires its own accumulation and memory validation"
     }
   ],
-  "current": "mars-shampoo/L0",
-  "child_pid": 41032
+  "current": "sophiag/H1",
+  "child_pid": 21820
 }
