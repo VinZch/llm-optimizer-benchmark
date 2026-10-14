@@ -1,0 +1,128 @@
+[
+  {
+    "optimizer": "lion",
+    "tier": "P1",
+    "preferred": "L2",
+    "proposed_comparison": "L0 / L2",
+    "reason": "FP8 动量；状态收益大，三个验证点的最大劣化仅约 0.005。"
+  },
+  {
+    "optimizer": "signum",
+    "tier": "P1",
+    "preferred": "L2",
+    "proposed_comparison": "L0 / L2",
+    "reason": "FP8 动量；状态收益大，本轮耗时变化较小。"
+  },
+  {
+    "optimizer": "cadamw",
+    "tier": "P1",
+    "preferred": "A3, A6",
+    "proposed_comparison": "A0 / A3 / A6",
+    "reason": "A3 保留 FP32 二阶状态作机制对照；A6 同时压缩 m/v，三个验证点均更低。"
+  },
+  {
+    "optimizer": "adopt",
+    "tier": "P1",
+    "preferred": "A3, A6",
+    "proposed_comparison": "A0 / A3 / A6",
+    "reason": "A6 三个验证点均更低；A3 用于隔离动量和二阶状态量化的影响。"
+  },
+  {
+    "optimizer": "ademamix",
+    "tier": "P2",
+    "preferred": "A6",
+    "proposed_comparison": "A0 / A3 / A6",
+    "reason": "双 FP8 值得扩展；慢速 EMA 未量化，因此总状态节省约 49.5%。"
+  },
+  {
+    "optimizer": "adamw-magma",
+    "tier": "P2",
+    "preferred": "A6",
+    "proposed_comparison": "A0 / A3 / A6",
+    "reason": "A6 loss 接近或低于对照；本轮耗时增加约 9%，先复测。"
+  },
+  {
+    "optimizer": "sf-adamw",
+    "tier": "P1",
+    "preferred": "S2",
+    "proposed_comparison": "S0 / S2",
+    "reason": "保持 z 为 FP32，仅量化 v；S3/S4 的 z BF16 暂不推进。"
+  },
+  {
+    "optimizer": "prodigy",
+    "tier": "P2",
+    "preferred": "A3, A5",
+    "proposed_comparison": "A0 / A3 / A5",
+    "reason": "优先保留 v 的 FP32/BF16；v FP8 的 A4/A6 有一致劣化。"
+  },
+  {
+    "optimizer": "mars-adamw",
+    "tier": "P2",
+    "preferred": "A6",
+    "proposed_comparison": "A0 / A4 / A6",
+    "reason": "A6 压缩收益较大；A4 在三个验证点均更低，可作 v 量化消融。"
+  },
+  {
+    "optimizer": "mars-lion",
+    "tier": "P2",
+    "preferred": "L2",
+    "proposed_comparison": "L0 / L2",
+    "reason": "FP8 动量可继续；保留的历史梯度及辅助状态限制总显存收益。"
+  },
+  {
+    "optimizer": "mars-shampoo",
+    "tier": "P3",
+    "preferred": "L1",
+    "proposed_comparison": "L0 / L1",
+    "reason": "BF16 接近对照；FP8 在三个验证点均变差，暂缓 L2。"
+  },
+  {
+    "optimizer": "sophiag",
+    "tier": "P2",
+    "preferred": "H6",
+    "proposed_comparison": "H0 / H6",
+    "reason": "H6 状态节省大，但量化配置最终 loss 均略高；先过 3000 步。"
+  },
+  {
+    "optimizer": "muon",
+    "tier": "P2",
+    "preferred": "L1",
+    "proposed_comparison": "L0 / L1 / L2",
+    "reason": "BF16 几乎贴合对照；FP8 有小幅偏移，先验证越过 LR warmup。"
+  },
+  {
+    "optimizer": "d-muon",
+    "tier": "P2",
+    "preferred": "L1",
+    "proposed_comparison": "L0 / L1 / L2",
+    "reason": "BF16 接近对照；FP8 的早期劣化更明显，暂作扩展候选。"
+  },
+  {
+    "optimizer": "muon-magma",
+    "tier": "P2",
+    "preferred": "L1",
+    "proposed_comparison": "L0 / L1",
+    "reason": "BF16 接近对照；FP8 三个验证点均较差，完整训练优先级低。"
+  },
+  {
+    "optimizer": "softeq-k2000-muon",
+    "tier": "P2",
+    "preferred": "L1",
+    "proposed_comparison": "L0 / L1 / L2",
+    "reason": "BF16 接近对照；需跨过第 2000 步算法切换后再确认 FP8。"
+  },
+  {
+    "optimizer": "soap",
+    "tier": "P2",
+    "preferred": "A3",
+    "proposed_comparison": "A0 / A3",
+    "reason": "优先只量化 m；v FP8 的 A4/A6 有劣化，A5/A6 耗时需复测。"
+  },
+  {
+    "optimizer": "newton-muon",
+    "tier": "P2",
+    "preferred": "L1",
+    "proposed_comparison": "L0 / L1 / L2",
+    "reason": "BF16 几乎重合；FP8 小幅变差；本轮负耗时增幅不视为加速结论。"
+  }
+]

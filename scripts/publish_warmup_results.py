@@ -21,6 +21,7 @@ def main():
            'scripts/summarize_optimizer_warmup.py','scripts/publish_warmup_results.py','tests/test_state_simulation.py']
     files += ['scripts/push_via_github_api.py','scripts/verify_adamw_archive.py','scripts/gn_warmup_step.py','tests/test_gn_accumulation.py']
     files += ['quantization/packed_optimizer.py','tests/test_packed_optimizer.py']
+    files += ['scripts/analyze_warmup_results.py']
     for relative in files:
         target=REPO/relative; target.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(ROOT/relative,target)
     source=ROOT/'upstream/llm-optimizer-benchmark'; target=REPO/'upstream/llm-optimizer-benchmark'

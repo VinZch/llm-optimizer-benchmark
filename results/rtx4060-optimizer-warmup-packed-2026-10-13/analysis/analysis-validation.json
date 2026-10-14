@@ -1,0 +1,10 @@
+{
+  "configurations": 88,
+  "optimizer_groups": 18,
+  "training_observations": 44000,
+  "validation_observations": 264,
+  "all_finite": true,
+  "inventory_matches": true,
+  "plots": 21,
+  "single_seed": true
+}
